@@ -75,12 +75,10 @@ function Homepage() {
               </a>
               , each is skilled at working in agile environments, test-driven
               development, object-oriented programming, and at quickly adapting
-              to new tech stacks. 
-              We believe that technology has the power to change lives
-              and make a difference, therefore, we
-              actively seek out opportunities to collaborate with organizations
-              that align with our values and share our vision for creating a
-              better world.
+              to new tech stacks. We believe that technology has the power to
+              change lives and make a difference, therefore, we actively seek
+              out opportunities to collaborate with organizations that align
+              with our values and share our vision for creating a better world.
             </p>
             <p className="text">
               {" "}
@@ -139,15 +137,20 @@ function Homepage() {
             </div>
           )}
 
-          <div>{showOurProjects && <OurProjects />}</div>
+          {/* <p className="pink-line"></p> */}
 
-          <div className="footer-container">
+          <div className="link-our-projects">
             <button
-              className="footer-text"
+              className="link-text"
               onClick={() => handleClick("/our-projects")}
             >
               Check out our projects here.
             </button>
+          </div>
+
+          <div>{showOurProjects && <OurProjects />}</div>
+
+          <div className="footer-container">
             <p className="footer-text-copyright">© Pensano Developers 2023</p>
           </div>
         </div>
