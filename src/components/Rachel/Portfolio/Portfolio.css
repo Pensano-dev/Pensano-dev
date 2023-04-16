@@ -1,0 +1,101 @@
+.all-projects-containerRach {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  border-radius: 20px;
+  background-color: #9dd2c9;
+  }
+  
+  .project-text {
+    width: 100%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-right: 20px;
+    font-size: 16px;
+    text-align: justify;
+    justify-content: end;
+    color: #052d49;
+    margin-right: 20px;
+  }
+  
+  .gif-containerRach {
+  align-items: center;
+  padding: 20px;
+  border-radius: 25px;
+  /* height: 200px;
+  width: 150px; */
+  }
+  .gifRach {
+  height: 210px;
+  border-radius: 17px;
+  }
+  
+  .github-emoticon-container {
+  width: 1px;
+  height: 1px;
+  justify-content: flex-end;
+  margin-top: -3%;
+  margin-left: 0px;
+  }
+  .github-child {
+  position: relative;
+  justify-content: start;
+  }
+  .github-emoticon Git {
+  max-width: 100%;
+  height: 100%;
+  }.all-projects-containerJu {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-radius: 20px;
+    background-color: #9dd2c9;
+    }
+    
+    .project-text {
+      width: 100%;
+      line-height: 1.5;
+      font-family: Arial, Helvetica, sans-serif;
+      padding-top: 5px;
+      padding-right: 20px;
+      font-size: 16px;
+      text-align: justify;
+      justify-content: end;
+      color: #052d49;
+      margin-right: 20px;
+    }
+    
+    .gif-container {
+    align-items: center;
+    padding: 20px;
+    border-radius: 25px;
+    /* height: 200px;
+    width: 150px; */
+    }
+    .gif {
+    height: 210px;
+    border-radius: 17px;
+    }
+    
+    .github-emoticon-container {
+    width: 1px;
+    height: 1px;
+    justify-content: flex-end;
+    margin-top: -3%;
+    margin-left: 0px;
+    }
+    .github-child {
+    position: relative;
+    justify-content: start;
+    }
+    .github-emoticon Git {
+    max-width: 100%;
+    height: 100%;
+    }

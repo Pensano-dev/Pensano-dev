@@ -1,0 +1,83 @@
+.pageContainer {
+    padding: 22px;
+    padding-bottom: 30%;
+    background-color: #CBE1E8;
+    height: 100%;
+  }
+  
+  .name {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #16557B;
+  }
+  
+  .aboutContainer {
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #A6C7CB;
+    border-radius: 20px;
+  }
+  .aboutText {
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 20px;
+    color: #16557B;
+  }
+  
+  .profile-pic {
+    height: 80%;
+    position: relative; 
+    /* overflow: hidden; */
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    /* resize: 'contain'; */
+    position: 'absolute';
+  }
+  
+  .about p {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .info-container {
+    /* margin-left: 30%; */
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .buttons {
+    display: flex;
+    background-color: #A6C7CB;
+    flex-direction: row;
+    font-size: 18px;
+    color: #16557B;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-color: #CBE1E8;
+    margin-top: 30px;
+    /* margin-left:75px; */
+  }

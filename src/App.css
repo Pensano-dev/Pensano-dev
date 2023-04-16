@@ -1,0 +1,36 @@
+/* .josh {
+  width: 100%;
+  height: 100%;
+  background-color: #CBE1E8;
+}
+
+.face-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+/* .face-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 50%;
+  width: 50%;
+  flex-direction: row;
+  position: absolute;
+  margin-left: 1%;
+  margin-top: 1px;
+  border: 2px solid black;
+} */
+
+/* .face-buttons-box {
+  display: flex;
+  height: 50%;
+  width: 50%;
+  border: 2px solid blue;
+} */

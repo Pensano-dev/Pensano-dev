@@ -1,0 +1,17 @@
+.info {
+  padding: 5px;
+  justify-content: space-between;
+  margin-inline: -80px;
+  align-items: center;
+  margin-top: 40px;
+  color: #16557B;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  /* below: to give space between items */
+  /* margin-inline-start: -20%; */
+}
+
+.link:visited {
+  color: #16557B;
+
+}

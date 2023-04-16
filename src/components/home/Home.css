@@ -1,0 +1,113 @@
+.navbar button {
+  /*The Team and Our Projects buttons*/
+  margin-right: 15px;
+  background-color: #a7d4e1;
+  font-weight: bold;
+  color: #16557b;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  border: none;
+}
+
+.page-container {
+  width: 100%;
+  /* gap: 1rem; */
+  /* border: 2px solid rgb(187, 19, 19); */
+}
+
+.text-and-photos-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.all-photos-container {
+  display: grid;
+  color: #323b60;
+  font-weight: bold;
+  /* border: 2px solid rgb(18, 224, 59); */
+  height: 200px;
+  margin-bottom: -2%;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-top: 3rem;
+  @media (max-width: 375px) {
+    height: 400px;
+  }
+}
+.photo {
+  display: flex; /* Use flexbox to position items horizontally */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  flex-direction: column;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  height: 150px;
+  /* border: 2px solid rgb(214, 18, 224); */
+}
+
+.text-container {
+  display: flexbox;
+  flex-direction: column;
+  background-color: #e5edef;
+  /* border: 2px solid black; */
+}
+.header {
+  margin: 5% 6% 3% 6%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #323b60;
+  text-align: center;
+}
+.pink-line {
+  background-color: #cfb8df;
+  width: 80%;
+  height: 10px;
+  border-radius: 25px;
+  margin-left: 10%;
+}
+.text {
+  justify-content: space-between;
+  margin: 2% 5% 2% 5%;
+  font-size: 16px;
+  color: #323b60;
+  text-align: justify;
+}
+
+.coFoundersContainer {
+  background-color: #cfb8df;
+}
+.headerCoFounders {
+  font-size: 20px;
+  font-weight: bold;
+  color: #323b60;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #93c7bf;
+  text-align: center;
+  width: 100%;
+  /* margin-top: auto; */
+  @media (min-width: 375px) {
+    position: inherit;
+  }
+}
+
+.footer-text {
+  border: 0;
+  padding: 2%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #323b60;
+  cursor: pointer;
+  background-color: #93c7bf;
+}

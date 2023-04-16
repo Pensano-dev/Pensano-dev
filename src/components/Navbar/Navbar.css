@@ -1,0 +1,68 @@
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E4D8EE;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar img /* Pensano Logo*/ {
+  cursor: pointer;
+  height: 500;
+  margin-left: 20px;
+}
+
+.navbar button { /*The Team and Our Projects buttons*/
+  margin-right: 15px;
+  background-color: #a7d4e1;
+  font-weight: bold;
+  color: #16557B;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  border: none;
+}
+
+.navbar button:active {
+  background-color: #93c7bf;
+}
+
+.navbar .team-container {
+  margin-left: auto;
+  color: #16557B;
+}
+
+.menu-item { /* Text inside dropdown menu*/
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: 14;
+  padding: 4px;
+  color: #16557B;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+.dropdown-container {
+  position: relative;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column; /* added to stack menu items vertically */
+  position: absolute;
+  width: 140px;
+  background-color: #d1e3e5;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.makers-logo {
+  height: 40px;
+  /* border: 2px solid black ; */
+  margin-right: 20px;
+}

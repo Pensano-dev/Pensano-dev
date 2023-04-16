@@ -1,0 +1,103 @@
+.pageContainer-luiz {
+    padding: 22px;
+    padding-bottom: 36%;
+    background-color: #f7f7f7;
+    height: 100%;
+  }
+  
+  .name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #052d49;
+  }
+  
+  .aboutContainer-luiz {
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-color: #052d49;
+  }
+  .aboutText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 20px;
+    color: #ffffff;
+  }
+  
+  .profile-pic {
+    height: 80%;
+    position: relative; 
+    /* overflow: hidden; */
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: 100%;
+    /* resize: 'contain'; */
+    position: 'absolute';
+  }
+  
+  .about p {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .info-container-luiz {
+    margin-top: -3%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: #052d49;
+    flex-direction: row;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border: none;
+  }
+
+  .buttons:active {
+    background-color: #ffffff;
+    color: #052d49;
+  }
+
+  .infoLuiz {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+  .portfolios-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
