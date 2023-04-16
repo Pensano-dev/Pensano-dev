@@ -148,6 +148,7 @@ function Homepage() {
             >
               Check out our projects here.
             </button>
+            <p className="footer-text-copyright">© Pensano Developers 2023</p>
           </div>
         </div>
       </div>
