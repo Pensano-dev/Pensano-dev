@@ -31,7 +31,7 @@ export default function OurProjects() {
                 recommendations for their patients. 
                 <br></br>
                   <p style={{ fontSize: 14 }}> 
-                  ⚙️ Tech used: Ruby on Rails, HTML, CSS, Git, GitHub, JavaScript, SQL and RSpec. 
+                  ⚙️ Tech used: MongoDB, Javascript, Jest, Cypress, HTML, CSS, Git, and GitHub. 
                   </p>
                 </p>
           </div>
