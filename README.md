@@ -14,8 +14,6 @@ Aiming for a mobile-responsive website, we used Excalidraw, Canva and Trello for
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting started
-
 In the project directory, you can run:
 
 ### `npm start`
