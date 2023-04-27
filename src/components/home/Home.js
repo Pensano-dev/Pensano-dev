@@ -97,7 +97,7 @@ function Homepage() {
             <div className="all-photos-container">
               <div className="photo">
                 <img
-                  className="photo"
+                  className="photo-size"
                   src={josh}
                   alt="Joshs photo"
                   onClick={() => handleClick("/josh")}
@@ -107,7 +107,7 @@ function Homepage() {
 
               <div className="photo">
                 <img
-                  className="photo"
+                  className="photo-size"
                   src={juliana}
                   alt="Julianas photo"
                   onClick={() => handleClick("/juliana")}
@@ -117,7 +117,7 @@ function Homepage() {
 
               <div className="photo">
                 <img
-                  className="photo"
+                  className="photo-size"
                   src={luiz}
                   alt="Luizs photo"
                   onClick={() => handleClick("/luiz")}
@@ -127,7 +127,7 @@ function Homepage() {
 
               <div className="photo">
                 <img
-                  className="photo"
+                  className="photo-size"
                   src={rachel}
                   alt="Rachels photo"
                   onClick={() => handleClick("/rachel")}

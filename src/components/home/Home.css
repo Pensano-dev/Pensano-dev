@@ -21,7 +21,7 @@
 .text-and-photos-container {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .all-photos-container {
@@ -29,14 +29,9 @@
   color: #323b60;
   font-weight: bold;
   /* border: 2px solid rgb(18, 224, 59); */
-  height: 200px;
-  margin-bottom: -2%;
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   margin-top: 3rem;
-  @media (max-width: 375px) {
-    height: 400px;
-  }
 }
 .photo {
   display: flex; /* Use flexbox to position items horizontally */
@@ -48,10 +43,12 @@
   font-size: 14px;
   text-align: center;
   position: relative;
-  height: 150px;
   /* border: 2px solid rgb(214, 18, 224); */
 }
 
+.photo-size {
+  height: 150px;
+}
 .text-container {
   display: flexbox;
   flex-direction: column;
