@@ -1,11 +1,11 @@
 import React from "react";
-import './Portfolio.css'
+import './Portfolio.css';
 import { IconContext } from 'react-icons';
 
 import Git from '../../personalInfo/Git';
-import stepvideo from '../../../images/LuizImagesAndVideos/logo-no-text.svg'
-import acevideo from '../../../images/LuizImagesAndVideos/logo-no-text.svg'
-import makerspic from '../../../images/LuizImagesAndVideos/makersbnb.png'
+import stepvideo from '../../../images/LuizImagesAndVideos/logo-no-text.svg';
+import imgAcebookFire from "../../../images/LuizImagesAndVideos/acebook-fire.svg";
+import makerspic from '../../../images/LuizImagesAndVideos/makersbnb.png';
 // need to convert this component to be a dinamic component
 
 export default function Portfolio({content, video, link}) {
@@ -31,7 +31,7 @@ export default function Portfolio({content, video, link}) {
 
       <div className="project-container">
         <div className="gif-container">
-          <img className="gif" src={acevideo} />
+          <img className="gif" src={imgAcebookFire} alt="Acebook login page" />
         </div>
 
         <div className="project-text">
