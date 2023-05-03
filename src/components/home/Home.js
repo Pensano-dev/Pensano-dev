@@ -10,6 +10,7 @@ import josh from "../../images/Josh.svg";
 import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
+import marta from "../../images/Rachel.svg";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -137,8 +138,24 @@ function Homepage() {
             </div>
           )}
 
-          {/* <p className="pink-line"></p> */}
+          <div className="coFoundersContainer">
+            <p className="headerCoFounders"> Volunteer Developers</p>
+          </div>
 
+            {/* Volunteer Developers */}
+          <div className="all-photos-container">
+            <div className="photo">
+              <a href="https://martabia.github.io/" target="_blank"><img src={marta} alt="Martas photo"></img></a>
+              <a href="https://martabia.github.io/"target="_blank">Marta Bianchini</a>
+            </div>
+
+            <div className="photo">
+              <a href="https://github.com/MichalSmyk" target="_blank"><img src={marta} alt="Michals photo"></img></a>
+              <a href="https://github.com/MichalSmyk" target="_blank">Michal</a>
+            </div>
+          </div>
+
+            {/* Link to our projects */}
           <div className="link-our-projects">
             <button
               className="link-text"
@@ -153,6 +170,7 @@ function Homepage() {
           <div className="footer-container">
             <p className="footer-text-copyright">© Pensano Developers 2023</p>
           </div>
+
         </div>
       </div>
     </Layout>
