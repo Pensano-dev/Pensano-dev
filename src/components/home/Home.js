@@ -10,7 +10,8 @@ import josh from "../../images/Josh.svg";
 import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
-import marta from "../../images/Rachel.svg";
+import marta from "../../images/marta.svg";
+import michal from "../../images/michal.svg";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -91,7 +92,7 @@ function Homepage() {
           </div>
 
           <div className="coFoundersContainer">
-            <p className="headerCoFounders"> Co-Founders</p>
+            <p className="headerCoFounders"> Co-Founders & Volunteer Developers</p>
           </div>
 
           {showComponents && (
@@ -144,14 +145,14 @@ function Homepage() {
 
             {/* Volunteer Developers */}
           <div className="all-photos-container">
-            <div className="photo">
-              <a href="https://martabia.github.io/" target="_blank"><img src={marta} alt="Martas photo"></img></a>
+            <div className="photo-volunteers">
+              <a href="https://martabia.github.io/" target="_blank"><img src={marta} alt="Martas photo" className="photo-size"></img></a>
               <a href="https://martabia.github.io/"target="_blank">Marta Bianchini</a>
             </div>
 
-            <div className="photo">
-              <a href="https://github.com/MichalSmyk" target="_blank"><img src={marta} alt="Michals photo"></img></a>
-              <a href="https://github.com/MichalSmyk" target="_blank">Michal</a>
+            <div className="photo-volunteers">
+              <a href="https://github.com/MichalSmyk" target="_blank"><img src={michal} alt="Michals photo" className="photo-size"></img></a>
+              <a href="https://github.com/MichalSmyk" target="_blank">Michal Smyk</a>
             </div>
           </div>
 

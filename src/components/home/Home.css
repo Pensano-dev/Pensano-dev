@@ -46,6 +46,24 @@
   /* border: 2px solid rgb(214, 18, 224); */
 }
 
+.photo-volunteers {
+  display: flex; /* Use flexbox to position items horizontally */
+  justify-content: center; /* Center items horizontally */
+  align-items: left; /* Center items vertically */
+  flex-direction: column;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.photo-volunteers a {
+  text-decoration: none;
+  color: #323b60;
+}
+
 .photo-size {
   height: 150px;
 }
