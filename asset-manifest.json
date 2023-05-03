@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4615bdd5.css",
-    "main.js": "/static/js/main.8209c7b4.js",
+    "main.css": "/static/css/main.1a5eee5c.css",
+    "main.js": "/static/js/main.0460e6c0.js",
     "static/js/787.3c54f43d.chunk.js": "/static/js/787.3c54f43d.chunk.js",
     "static/media/bank.svg": "/static/media/bank.04b0e6c0a8ee1006e82374cde3ae7b90.svg",
     "static/media/CloudBnB.svg": "/static/media/CloudBnB.7cf2d736b1c96971df913835544f2200.svg",
@@ -15,6 +15,7 @@
     "static/media/Solved.svg": "/static/media/Solved.187e69261b1fd0c32a107e2500e4f102.svg",
     "static/media/HTMA-report.png": "/static/media/HTMA-report.e211439d4c55adfaacce.png",
     "static/media/logo-pensano.png": "/static/media/logo-pensano.6c8cd86994f41f616122.png",
+    "static/media/acebook-fire.svg": "/static/media/acebook-fire.165aaea7d68cefacab41c928eadf2b41.svg",
     "static/media/CVJuliana.pdf": "/static/media/CVJuliana.a828f36a94ddd63c2426.pdf",
     "static/media/LuizCV.pdf": "/static/media/LuizCV.6460faecd7192fa2ed33.pdf",
     "static/media/makersbnb.png": "/static/media/makersbnb.14557d6df7ebf8a201af.png",
@@ -22,12 +23,12 @@
     "static/media/logo-no-text.svg": "/static/media/logo-no-text.bbafbb6cf541d437aff86d77f69d5f95.svg",
     "static/media/coming-soon.pdf": "/static/media/coming-soon.f2a6ac7e6074dec97c73.pdf",
     "index.html": "/index.html",
-    "main.4615bdd5.css.map": "/static/css/main.4615bdd5.css.map",
-    "main.8209c7b4.js.map": "/static/js/main.8209c7b4.js.map",
+    "main.1a5eee5c.css.map": "/static/css/main.1a5eee5c.css.map",
+    "main.0460e6c0.js.map": "/static/js/main.0460e6c0.js.map",
     "787.3c54f43d.chunk.js.map": "/static/js/787.3c54f43d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4615bdd5.css",
-    "static/js/main.8209c7b4.js"
+    "static/css/main.1a5eee5c.css",
+    "static/js/main.0460e6c0.js"
   ]
 }
