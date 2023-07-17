@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a5eee5c.css",
-    "main.js": "/static/js/main.0460e6c0.js",
+    "main.css": "/static/css/main.0d5117ec.css",
+    "main.js": "/static/js/main.64df91c1.js",
     "static/js/787.3c54f43d.chunk.js": "/static/js/787.3c54f43d.chunk.js",
     "static/media/bank.svg": "/static/media/bank.04b0e6c0a8ee1006e82374cde3ae7b90.svg",
     "static/media/CloudBnB.svg": "/static/media/CloudBnB.7cf2d736b1c96971df913835544f2200.svg",
+    "static/media/logo-pensano.png": "/static/media/logo-pensano.33e5852de1dccb3ae0b8.png",
     "static/media/Ju.svg": "/static/media/Ju.632fe5a7b26899389a4cb8ab1b5331e3.svg",
     "static/media/pensano.svg": "/static/media/pensano.6720df1df4397ae885d4e6cf3a9ed0f3.svg",
     "static/media/Josh.svg": "/static/media/Josh.44f8d491c1319f7c51ba42590ec51da4.svg",
+    "static/media/michal.svg": "/static/media/michal.a8f8e12ba7df4dc65c944f57c787eb8e.svg",
+    "static/media/marta.svg": "/static/media/marta.c9d51b7d85ed350ce8f302d92c17aa67.svg",
     "static/media/Rachel.svg": "/static/media/Rachel.a0bdafd32c27866d00c9505351e8fbe7.svg",
     "static/media/Luiz.svg": "/static/media/Luiz.9e97e98bfd2fcc3d64730d16836d0f64.svg",
     "static/media/Acebook-Air.svg": "/static/media/Acebook-Air.b9b26b481289be2c963508ea9b84535e.svg",
     "static/media/bowling.svg": "/static/media/bowling.69549c99abb723dbc6813d0e73cd786d.svg",
     "static/media/Solved.svg": "/static/media/Solved.187e69261b1fd0c32a107e2500e4f102.svg",
     "static/media/HTMA-report.png": "/static/media/HTMA-report.e211439d4c55adfaacce.png",
-    "static/media/logo-pensano.png": "/static/media/logo-pensano.6c8cd86994f41f616122.png",
     "static/media/acebook-fire.svg": "/static/media/acebook-fire.165aaea7d68cefacab41c928eadf2b41.svg",
     "static/media/CVJuliana.pdf": "/static/media/CVJuliana.a828f36a94ddd63c2426.pdf",
     "static/media/LuizCV.pdf": "/static/media/LuizCV.6460faecd7192fa2ed33.pdf",
@@ -23,12 +25,12 @@
     "static/media/logo-no-text.svg": "/static/media/logo-no-text.bbafbb6cf541d437aff86d77f69d5f95.svg",
     "static/media/coming-soon.pdf": "/static/media/coming-soon.f2a6ac7e6074dec97c73.pdf",
     "index.html": "/index.html",
-    "main.1a5eee5c.css.map": "/static/css/main.1a5eee5c.css.map",
-    "main.0460e6c0.js.map": "/static/js/main.0460e6c0.js.map",
+    "main.0d5117ec.css.map": "/static/css/main.0d5117ec.css.map",
+    "main.64df91c1.js.map": "/static/js/main.64df91c1.js.map",
     "787.3c54f43d.chunk.js.map": "/static/js/787.3c54f43d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a5eee5c.css",
-    "static/js/main.0460e6c0.js"
+    "static/css/main.0d5117ec.css",
+    "static/js/main.64df91c1.js"
   ]
 }
