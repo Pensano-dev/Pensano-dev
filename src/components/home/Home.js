@@ -10,8 +10,14 @@ import josh from "../../images/Josh.svg";
 import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
-import marta from "../../images/marta.svg";
-import michal from "../../images/michal.svg";
+import kera from "../../images/Kera.svg";
+import manuela from "../../images/Manuela.svg";
+import marta from "../../images/Marta.svg";
+import michal from "../../images/Michal.svg";
+import natasha from "../../images/Natasha.svg";
+import sidra from "../../images/Sidra.svg";
+import tian from "../../images/Tian.svg";
+import elsa from "../../images/Elsa.svg";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -59,28 +65,26 @@ function Homepage() {
           <div className="text-container">
             <p className="header">
               {" "}
-              Pensano Developers is a team of software engineers who are
-              available to hire for job roles in the UK.
+              Pensano Developers is a team of volunteer junior developers and
+              UX/UI designers on a mission to create a positive impact through
+              purposeful development!
             </p>
             <p className="pink-line"></p>
             <p className="text">
               {" "}
-              Pensano is Italian for they think; and the developers at Pensano
+              Pensano is Italian for they think; and the volunteers at Pensano
               Developers do just that: they are problem solvers, they think
               outside the box, and they are deliberate.
             </p>
             <p className="text">
               {" "}
-              As graduates from{" "}
-              <a href="https://makers.tech" target="_blank">
-                Makers Academy
-              </a>
-              , each is skilled at working in agile environments, test-driven
-              development, object-oriented programming, and at quickly adapting
-              to new tech stacks. We believe that technology has the power to
-              change lives and make a difference, therefore, we actively seek
-              out opportunities to collaborate with organizations that align
-              with our values and share our vision for creating a better world.
+              Each is skilled at working in agile environments, test-driven
+              development, object-oriented and pair programming, and at quickly
+              adapting to new tech stacks. We believe that technology has the
+              power to change lives and make a difference, therefore, we
+              actively seek out opportunities to collaborate with organizations
+              that align with our values and share our vision for creating a
+              better world.
             </p>
             <p className="text">
               {" "}
@@ -92,71 +96,275 @@ function Homepage() {
           </div>
 
           <div className="coFoundersContainer">
-            <p className="headerCoFounders"> Co-Founders & Volunteer Developers</p>
+            <p className="headerCoFounders">
+              {" "}
+              Co-Founders & Volunteer Developers
+            </p>
           </div>
 
           {showComponents && (
             <div className="all-photos-container">
               <div className="photo">
-                <img
-                  className="photo-size"
-                  src={josh}
-                  alt="Joshs photo"
-                  onClick={() => handleClick("/josh")}
-                />
-                <p onClick={() => handleClick("/josh")}>Josh Penney</p>
+                <a
+                  href="https://github.com/josh-p-git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="photo-size"
+                    src={josh}
+                    alt="Joshs photo"
+                  ></img>
+                </a>
+                <a
+                  href="https://github.com/josh-p-git"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Josh Penney{" "}
+                </a>
               </div>
 
               <div className="photo">
-                <img
-                  className="photo-size"
-                  src={juliana}
-                  alt="Julianas photo"
-                  onClick={() => handleClick("/juliana")}
-                />
-                <p onClick={() => handleClick("/juliana")}>Juliana Nocchi</p>
+                <a
+                  href="https://github.com/junocchi/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="photo-size"
+                    src={juliana}
+                    alt="Julianas photo"
+                  ></img>
+                </a>
+                <a
+                  href="https://github.com/junocchi/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Juliana Nocchi
+                </a>
               </div>
 
               <div className="photo">
-                <img
-                  className="photo-size"
-                  src={luiz}
-                  alt="Luizs photo"
-                  onClick={() => handleClick("/luiz")}
-                />
-                <p onClick={() => handleClick("/luiz")}>Luiz Santos</p>
+                <a
+                  href="https://github.com/santosluizfelipe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="photo-size"
+                    src={luiz}
+                    alt="Luizs photo"
+                  ></img>
+                </a>
+                <a
+                  href="https://github.com/santosluizfelipe"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Luiz Santos
+                </a>
               </div>
 
               <div className="photo">
-                <img
-                  className="photo-size"
-                  src={rachel}
-                  alt="Rachels photo"
-                  onClick={() => handleClick("/rachel")}
-                />
-                <p onClick={() => handleClick("/rachel")}>Rachel Newby</p>
+                <a
+                  href="https://github.com/rachelnewby"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="photo-size"
+                    src={rachel}
+                    alt="Rachels photo"
+                  ></img>
+                </a>
+                <a
+                  href="https://github.com/rachelnewby"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Rachel Newby
+                </a>
               </div>
             </div>
           )}
 
-          <div className="coFoundersContainer">
+          {/* Volunteer Developers */}
+          <div className="volunteersContainer">
             <p className="headerCoFounders"> Volunteer Developers</p>
           </div>
 
-            {/* Volunteer Developers */}
           <div className="all-photos-container">
             <div className="photo-volunteers">
-              <a href="https://martabia.github.io/" target="_blank"><img src={marta} alt="Martas photo" className="photo-size"></img></a>
-              <a href="https://martabia.github.io/"target="_blank">Marta Bianchini</a>
+              <a
+                href="https://github.com/Keremesh"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={kera}
+                  alt="Keras photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/Keremesh"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Kera Sultan
+              </a>
             </div>
 
             <div className="photo-volunteers">
-              <a href="https://github.com/MichalSmyk" target="_blank"><img src={michal} alt="Michals photo" className="photo-size"></img></a>
-              <a href="https://github.com/MichalSmyk" target="_blank">Michal Smyk</a>
+              <a
+                href="https://github.com/ManuelaIacobovici"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={manuela}
+                  alt="Manuelas photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/ManuelaIacobovici"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Manuela Iacobovici
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://martabia.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={marta}
+                  alt="Martas photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://martabia.github.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Marta Bianchini
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/MichalSmyk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={michal}
+                  alt="Michals photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/MichalSmyk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Michal Smyk
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/natashabuckham"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={natasha}
+                  alt="Natashas photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/natashabuckham"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Natasha Buckham
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/siqbal181"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={sidra}
+                  alt="Sidras photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/siqbal181"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Sidra Iqbal
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/Tian807"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={tian} alt="Tians photo" className="photo-size"></img>
+              </a>
+              <a
+                href="https://github.com/Tian807"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Tian Pan
+              </a>
             </div>
           </div>
 
-            {/* Link to our projects */}
+          {/* Volunteer Graphic Designers */}
+          <div className="volunteersContainer">
+            <p className="headerCoFounders"> Volunteer Graphic Designers</p>
+          </div>
+
+          <div className="all-photos-container">
+            <div className="photo-volunteers">
+              <a
+                href="https://www.linkedin.com/in/elnafarlinkein/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={elsa} alt="Elsas photo" className="photo-size"></img>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/elnafarlinkein/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Elsa Farmer
+              </a>
+            </div>
+          </div>
+
+          {/* Link to our projects */}
           <div className="link-our-projects">
             <button
               className="link-text"
@@ -171,7 +379,6 @@ function Homepage() {
           <div className="footer-container">
             <p className="footer-text-copyright">© Pensano Developers 2023</p>
           </div>
-
         </div>
       </div>
     </Layout>
