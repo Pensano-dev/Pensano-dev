@@ -10,7 +10,7 @@ import imgHTMA from "../../images/OurProjectsImagesAndVideos/HTMA-report.png";
 export default function OurProjects() {
   return (
     <IconContext.Provider value={{ color: "#052d49", size: "30px" }}>
-      <div style={{ backgroundColor: "#E5EDEF" }}>
+      <div style={{ backgroundColor: "#BBEBEA" }}>
         <Navbar />
         <h2 className="title">Welcome to our projects page!</h2>
 

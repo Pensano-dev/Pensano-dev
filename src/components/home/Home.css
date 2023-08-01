@@ -1,9 +1,11 @@
 .navbar button {
   /*The Team and Our Projects buttons*/
   margin-right: 15px;
-  background-color: #a7d4e1;
+  /* background-color: #a7d4e1; */
+  background-color: #FEB211;
   font-weight: bold;
-  color: #16557b;
+  /* color: #16557b; */
+  color: #39455D;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
@@ -14,7 +16,7 @@
 
 .page-container {
   width: 100%;
-  /* gap: 1rem; */
+  background-color: #BBEBEA;
   /* border: 2px solid rgb(187, 19, 19); */
 }
 
@@ -31,11 +33,13 @@
   /* border: 2px solid rgb(18, 224, 59); */
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin-top: 3rem;
+  margin-top: 2rem;
+  margin-inline: 1rem;
+  text-decoration: none;
 }
 .photo {
   display: flex; /* Use flexbox to position items horizontally */
-  justify-content: center; /* Center items horizontally */
+  column-gap: ;
   align-items: center; /* Center items vertically */
   flex-direction: column;
   cursor: pointer;
@@ -44,6 +48,12 @@
   text-align: center;
   position: relative;
   /* border: 2px solid rgb(214, 18, 224); */
+}
+
+.photo a {
+  text-decoration: none;
+  color: #323b60;
+  margin-bottom: 10px;
 }
 
 .photo-volunteers {
@@ -57,6 +67,7 @@
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+
 }
 
 .photo-volunteers a {
@@ -65,23 +76,25 @@
 }
 
 .photo-size {
-  height: 150px;
+  height: 180px;
 }
 .text-container {
   display: flexbox;
   flex-direction: column;
-  background-color: #e5edef;
+  /* background-color: #e5edef; */
+  background-color: #BBEBEA;
   /* border: 2px solid black; */
 }
 .header {
   margin: 5% 6% 3% 6%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #323b60;
   text-align: center;
 }
 .pink-line {
-  background-color: #cfb8df;
+  /* background-color: #cfb8df; */
+  background-color: #50CFCD;
   width: 80%;
   height: 10px;
   border-radius: 25px;
@@ -90,13 +103,20 @@
 .text {
   justify-content: space-between;
   margin: 2% 5% 2% 5%;
-  font-size: 16px;
+  font-size: 14px;
   color: #323b60;
   text-align: justify;
 }
 
 .coFoundersContainer {
-  background-color: #cfb8df;
+  /* background-color: #cfb8df; */
+  background-color: #CEA0E4;
+  /* margin-top: 1rem; */
+}
+.volunteersContainer {
+  /* background-color: #cfb8df; */
+  background-color: #CEA0E4;
+  margin-top: 1rem;
 }
 .headerCoFounders {
   font-size: 20px;
@@ -108,7 +128,8 @@
 .link-our-projects {
   display: flex;
   flex-direction: column;
-  background-color: #e5edef;
+  /* background-color: #e5edef; */
+  background-color: #ABB2E7;
 }
 .link-text {
   margin-top: 1rem;
@@ -117,13 +138,15 @@
   font-weight: bold;
   color: #323b60;
   text-align: center;
-  background-color: #e5edef;
+  /* background-color: #e5edef; */
+  background-color: #ABB2E7;
   border-color: transparent;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-  background-color: #93c7bf;
+  /* background-color: #93c7bf; */
+  background-color: #50CFCD;
   width: 100%;
   text-align: right;
   @media (min-width: 375px) {
@@ -146,5 +169,6 @@
   padding-right: 1rem;
   font-size: 12px;
   color: #323b60;
-  background-color: #93c7bf;
+  /* background-color: #93c7bf; */
+  background-color: #50CFCD;
 }

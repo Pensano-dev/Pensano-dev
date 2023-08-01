@@ -3,13 +3,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #E4D8EE;
+  background-color: #ABB2E7;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar img /* Pensano Logo*/ {
   cursor: pointer;
-  height: 70px;
+  height: 80px;
   width: auto;
   margin-left: 10px;
   padding: 10px;
