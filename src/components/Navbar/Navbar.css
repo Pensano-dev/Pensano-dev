@@ -9,8 +9,10 @@
 
 .navbar img /* Pensano Logo*/ {
   cursor: pointer;
-  height: 500;
-  margin-left: 20px;
+  height: 70px;
+  width: auto;
+  margin-left: 10px;
+  padding: 10px;
 }
 
 .navbar button { /*The Team and Our Projects buttons*/
