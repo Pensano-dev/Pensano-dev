@@ -14,19 +14,25 @@
   /* justify-content: start; */
   border-radius: 20px;
   background-color: #DEBCEF;
+  /* margin-bottom: 50px; */
 }
 
 .project-textAll {
   width: 100%;
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 5px;
-  padding-right: 20px;
+  padding: 5px;
   font-size: 16px;
   text-align: justify;
   justify-content: end;
   color: #052d49;
-  margin-right: 20px;
+  /* margin-right: 20px; */
+  margin-inline: 5%;
+  margin-bottom: 10px;
+}
+
+.project-textAll h3 {
+  padding: 5px;
 }
 
 .img-container-op {
@@ -46,9 +52,14 @@
   margin-top: -3%;
   margin-left: 0px;
 }
-.github-child {
+/* .github-child {
   position: relative;
   justify-content: start;
+} */
+
+.github-child {
+  margin-top: -40px;
+  margin-left: 107%;
 }
 .github-emoticon Git {
   max-width: 100%;
