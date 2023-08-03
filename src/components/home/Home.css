@@ -27,19 +27,28 @@
 }
 
 .all-photos-container {
-  display: grid;
+  /* display: grid; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   color: #323b60;
   font-weight: bold;
   /* border: 2px solid rgb(18, 224, 59); */
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin-top: 2rem;
-  margin-inline: 1rem;
+  /* margin-top: 2rem;
+  margin-inline: 1rem; */
   text-decoration: none;
+  margin: 2rem 5% 2% 5%;
+}
+
+.volunteersContainer {
+  background-color: #CEA0E4;
+  margin-top: 1rem;
 }
 .photo {
   display: flex; /* Use flexbox to position items horizontally */
-  column-gap: ;
+  /* column-gap: 1rem; */
   align-items: center; /* Center items vertically */
   flex-direction: column;
   cursor: pointer;
@@ -58,16 +67,16 @@
 
 .photo-volunteers {
   display: flex; /* Use flexbox to position items horizontally */
-  justify-content: center; /* Center items horizontally */
-  align-items: left; /* Center items vertically */
+  /* justify-content: center; Center items horizontally */
+  align-items: center; /* Center items vertically */
   flex-direction: column;
   cursor: pointer;
   border-color: transparent;
   font-size: 14px;
   text-align: center;
   position: relative;
+  flex: 0 0 20%;
   margin-bottom: 20px;
-
 }
 
 .photo-volunteers a {
@@ -76,14 +85,12 @@
 }
 
 .photo-size {
-  height: 180px;
+  height: 160px;
 }
 .text-container {
   display: flexbox;
   flex-direction: column;
-  /* background-color: #e5edef; */
   background-color: #BBEBEA;
-  /* border: 2px solid black; */
 }
 .header {
   margin: 5% 6% 3% 6%;
@@ -93,7 +100,6 @@
   text-align: center;
 }
 .pink-line {
-  /* background-color: #cfb8df; */
   background-color: #50CFCD;
   width: 80%;
   height: 10px;
@@ -109,16 +115,10 @@
 }
 
 .coFoundersContainer {
-  /* background-color: #cfb8df; */
   background-color: #CEA0E4;
-  /* margin-top: 1rem; */
 }
-.volunteersContainer {
-  /* background-color: #cfb8df; */
-  background-color: #CEA0E4;
-  margin-top: 1rem;
-}
-.headerCoFounders {
+
+.volunteersHeader {
   font-size: 20px;
   font-weight: bold;
   color: #323b60;
@@ -128,7 +128,6 @@
 .link-our-projects {
   display: flex;
   flex-direction: column;
-  /* background-color: #e5edef; */
   background-color: #ABB2E7;
 }
 .link-text {
