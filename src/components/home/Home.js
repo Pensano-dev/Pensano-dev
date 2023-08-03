@@ -5,18 +5,21 @@ import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import Layout from "../layout/layout";
 
-import OurProjects from "../OurProjects/OurProjects";
+import OurProjects from "../OurProjects/OurProjects"; 
 import josh from "../../images/Josh.svg";
 import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
+// volunteers
 import kera from "../../images/Kera.svg";
 import manuela from "../../images/Manuela.svg";
 import marta from "../../images/Marta.svg";
 import michal from "../../images/Michal.svg";
 import natasha from "../../images/Natasha.svg";
+import pablo from "../../images/Pablo.svg";
 import sidra from "../../images/Sidra.svg";
 import tian from "../../images/Tian.svg";
+// graphic designers
 import elsa from "../../images/Elsa.svg";
 
 function Homepage() {
@@ -95,8 +98,9 @@ function Homepage() {
             <br></br>
           </div>
 
+          {/*Co-Founders & Volunteer Developers */}
           <div className="coFoundersContainer">
-            <p className="headerCoFounders">
+            <p className="volunteersHeader">
               {" "}
               Co-Founders & Volunteer Developers
             </p>
@@ -121,7 +125,7 @@ function Homepage() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Josh Penney{" "}
+                  Josh Penney
                 </a>
               </div>
 
@@ -190,9 +194,10 @@ function Homepage() {
             </div>
           )}
 
+
           {/* Volunteer Developers */}
           <div className="volunteersContainer">
-            <p className="headerCoFounders"> Volunteer Developers</p>
+            <p className="volunteersHeader"> Volunteer Developers</p>
           </div>
 
           <div className="all-photos-container">
@@ -202,11 +207,7 @@ function Homepage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
-                  src={kera}
-                  alt="Keras photo"
-                  className="photo-size"
-                ></img>
+                <img src={kera} alt="Keras photo" className="photo-size"></img>
               </a>
               <a
                 href="https://github.com/Keremesh"
@@ -303,6 +304,23 @@ function Homepage() {
 
             <div className="photo-volunteers">
               <a
+                href="https://github.com/pablisch"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={pablo} alt="Pablos photo" className="photo-size"></img>
+              </a>
+              <a
+                href="https://github.com/pablisch"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Pablo Joyce
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
                 href="https://github.com/siqbal181"
                 target="_blank"
                 rel="noreferrer"
@@ -342,7 +360,7 @@ function Homepage() {
 
           {/* Volunteer Graphic Designers */}
           <div className="volunteersContainer">
-            <p className="headerCoFounders"> Volunteer Graphic Designers</p>
+            <p className="volunteersHeader"> Volunteer Graphic Designers</p>
           </div>
 
           <div className="all-photos-container">
