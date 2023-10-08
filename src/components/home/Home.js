@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import Layout from "../layout/layout";
 
-import OurProjects from "../OurProjects/OurProjects"; 
+import OurProjects from "../OurProjects/OurProjects";
 import josh from "../../images/Josh.svg";
 import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
@@ -13,6 +13,7 @@ import rachel from "../../images/Rachel.svg";
 // volunteers
 import kera from "../../images/Kera.svg";
 import manuela from "../../images/Manuela.svg";
+import marie from "../../images/Marie.svg";
 import marta from "../../images/Marta.svg";
 import michal from "../../images/Michal.svg";
 import natasha from "../../images/Natasha.svg";
@@ -194,7 +195,6 @@ function Homepage() {
             </div>
           )}
 
-
           {/* Volunteer Developers */}
           <div className="volunteersContainer">
             <p className="volunteersHeader"> Volunteer Developers</p>
@@ -236,6 +236,27 @@ function Homepage() {
                 rel="noreferrer"
               >
                 Manuela Iacobovici
+              </a>
+            </div>
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/ChalkandFeather"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src={marie}
+                  alt="Manuelas photo"
+                  className="photo-size"
+                ></img>
+              </a>
+              <a
+                href="https://github.com/ChalkandFeather"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Marie Taylor
               </a>
             </div>
 
@@ -308,7 +329,11 @@ function Homepage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={pablo} alt="Pablos photo" className="photo-size"></img>
+                <img
+                  src={pablo}
+                  alt="Pablos photo"
+                  className="photo-size"
+                ></img>
               </a>
               <a
                 href="https://github.com/pablisch"
