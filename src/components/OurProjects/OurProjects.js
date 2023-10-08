@@ -100,12 +100,7 @@ export default function OurProjects() {
               able to create detailed diagrams and prototypes that helped guide
               the site's design and layout. We also used Trello and Slack to
               track progress and communicate with one another. This is a
-              front-end project, built with React and CSS. It has different
-              sections, including a "The Team" page that provides more
-              information on its members, and a "Projects" page that showcases
-              our accomplishments. The site's design is optimized for mobile
-              devices, ensuring that visitors can easily access and navigate the
-              site on their smartphones or tablets.
+              front-end project, built with React and CSS.
               <br></br>
               <p style={{ fontSize: 14 }}>
                 ⚙️ Tech used: Git, GitHub, JavaScript, React, Cypress, CSS and
