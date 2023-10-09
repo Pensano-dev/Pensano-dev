@@ -1,4 +1,4 @@
-# Pensano Developers
+# Pensano Developers 
 Pensano is Italian for they think; and the developers at Pensano Developers do just that: they are problem solvers, they think outside the box, and they are deliberate.
 
 As a team of four graduates from Makers Academy, each is skilled at working in agile environments, test-driven development, object-oriented programming, and at quickly adapting to new tech stacks. We believe that technology has the power to change lives and make a difference, therefore, we actively seek out opportunities to collaborate with organizations that align with our values and share our vision for creating a better world. 
