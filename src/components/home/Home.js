@@ -27,37 +27,8 @@ import elsa from "../../images/Elsa.svg";
 function Homepage() {
   const navigate = useNavigate();
 
-  // const [showJosh, setShowJosh] = useState(false);
-  // const [showLuiz, setShowLuiz] = useState(false);
-  // const [showJuliana, setShowJuliana] = useState(false);
-  // const [showRachel, setShowRachel] = useState(false);
-  const [showOurProjects, setShowOurProjects] = useState(false);
-  const [showComponents, setShowComponents] = useState(true);
-
-  // const toggleComponents = (show) => {
-  //   setShowComponents(show);
-  // };
-
-  // const handleJosh = () => {
-  //   setShowJosh(false);
-  //   setShowOurProjects(false);
-  // };
-
-  // const handleLuiz = () => {
-  //   setShowLuiz(false);
-  // };
-
-  // const handleJuliana = () => {
-  //   setShowJuliana(false);
-  // };
-
-  // const handleRachel = () => {
-  //   setShowRachel(false);
-  // };
-
-  // const handleOurProjects = (show) => {
-  //   setShowOurProjects(show);
-  // };
+  const [showOurProjects] = useState(false);
+  const [showComponents] = useState(true);
 
   function handleClick(path) {
     navigate(path);
