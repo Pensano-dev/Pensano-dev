@@ -11,6 +11,7 @@ import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
 // volunteers
+import jovan from "../../images/Jovan.svg";
 import kera from "../../images/Kera.svg";
 import manuela from "../../images/Manuela.svg";
 import marie from "../../images/Marie.svg";
@@ -26,37 +27,37 @@ import elsa from "../../images/Elsa.svg";
 function Homepage() {
   const navigate = useNavigate();
 
-  const [showJosh, setShowJosh] = useState(false);
-  const [showLuiz, setShowLuiz] = useState(false);
-  const [showJuliana, setShowJuliana] = useState(false);
-  const [showRachel, setShowRachel] = useState(false);
+  // const [showJosh, setShowJosh] = useState(false);
+  // const [showLuiz, setShowLuiz] = useState(false);
+  // const [showJuliana, setShowJuliana] = useState(false);
+  // const [showRachel, setShowRachel] = useState(false);
   const [showOurProjects, setShowOurProjects] = useState(false);
   const [showComponents, setShowComponents] = useState(true);
 
-  const toggleComponents = (show) => {
-    setShowComponents(show);
-  };
+  // const toggleComponents = (show) => {
+  //   setShowComponents(show);
+  // };
 
-  const handleJosh = () => {
-    setShowJosh(false);
-    setShowOurProjects(false);
-  };
+  // const handleJosh = () => {
+  //   setShowJosh(false);
+  //   setShowOurProjects(false);
+  // };
 
-  const handleLuiz = () => {
-    setShowLuiz(false);
-  };
+  // const handleLuiz = () => {
+  //   setShowLuiz(false);
+  // };
 
-  const handleJuliana = () => {
-    setShowJuliana(false);
-  };
+  // const handleJuliana = () => {
+  //   setShowJuliana(false);
+  // };
 
-  const handleRachel = () => {
-    setShowRachel(false);
-  };
+  // const handleRachel = () => {
+  //   setShowRachel(false);
+  // };
 
-  const handleOurProjects = (show) => {
-    setShowOurProjects(show);
-  };
+  // const handleOurProjects = (show) => {
+  //   setShowOurProjects(show);
+  // };
 
   function handleClick(path) {
     navigate(path);
@@ -201,6 +202,23 @@ function Homepage() {
           </div>
 
           <div className="all-photos-container">
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/Royalone94"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={jovan} alt="Keras photo" className="photo-size"></img>
+              </a>
+              <a
+                href="https://github.com/Royalone94"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Jovan Aleksic
+              </a>
+            </div>
+
             <div className="photo-volunteers">
               <a
                 href="https://github.com/Keremesh"
