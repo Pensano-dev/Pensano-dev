@@ -41,16 +41,16 @@ function Homepage() {
           <div className="text-container">
             <p className="header">
               {" "}
-              Pensano Developers is a team of volunteer junior developers and
-              UX/UI designers on a mission to create a positive impact through
-              purposeful development!
+              Pensano Developers is a team of volunteer developers and UX/UI
+              designers on a mission to create a positive impact through
+              purposeful development.
             </p>
             <p className="pink-line"></p>
             <p className="text">
               {" "}
               Pensano is Italian for they think; and the volunteers at Pensano
-              Developers do just that: they are problem solvers, they think
-              outside the box, and they are deliberate.
+              do just that: they are problem solvers, they think outside the
+              box, and they are deliberate.
             </p>
             <p className="text">
               {" "}
@@ -64,8 +64,7 @@ function Homepage() {
             </p>
             <p className="text">
               {" "}
-              This site is designed to showcase our work both collectively, as
-              Pensano Devs, and our individual projects. Please take a look
+              This site is designed to showcase our work, so please take a look
               around.
             </p>
             <br></br>
