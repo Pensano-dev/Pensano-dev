@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.75e00ff5.css",
-    "main.js": "/static/js/main.e668cfac.js",
+    "main.js": "/static/js/main.39a7a428.js",
     "static/js/787.3c54f43d.chunk.js": "/static/js/787.3c54f43d.chunk.js",
     "static/media/Jovan.svg": "/static/media/Jovan.160847c22234b6d4abb2d8eb03f9a6e4.svg",
     "static/media/bank.svg": "/static/media/bank.04b0e6c0a8ee1006e82374cde3ae7b90.svg",
@@ -20,6 +20,7 @@
     "static/media/Acebook-Air.svg": "/static/media/Acebook-Air.b9b26b481289be2c963508ea9b84535e.svg",
     "static/media/Marie.svg": "/static/media/Marie.57d23b11b23fb8212ef30f66d51ac8c7.svg",
     "static/media/bowling.svg": "/static/media/bowling.69549c99abb723dbc6813d0e73cd786d.svg",
+    "static/media/Chiara.svg": "/static/media/Chiara.d8bb9a001c08c95e7d048de9e432b885.svg",
     "static/media/Manuela.svg": "/static/media/Manuela.6c51f225996b7eb86d894f834d9a4106.svg",
     "static/media/Solved.svg": "/static/media/Solved.187e69261b1fd0c32a107e2500e4f102.svg",
     "static/media/logo-pensano.png": "/static/media/logo-pensano.058c4d94be3e604f57a4.png",
@@ -34,11 +35,11 @@
     "static/media/coming-soon.pdf": "/static/media/coming-soon.f2a6ac7e6074dec97c73.pdf",
     "index.html": "/index.html",
     "main.75e00ff5.css.map": "/static/css/main.75e00ff5.css.map",
-    "main.e668cfac.js.map": "/static/js/main.e668cfac.js.map",
+    "main.39a7a428.js.map": "/static/js/main.39a7a428.js.map",
     "787.3c54f43d.chunk.js.map": "/static/js/787.3c54f43d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75e00ff5.css",
-    "static/js/main.e668cfac.js"
+    "static/js/main.39a7a428.js"
   ]
 }
