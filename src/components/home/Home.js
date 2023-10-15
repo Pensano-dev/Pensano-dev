@@ -11,6 +11,7 @@ import luiz from "../../images/Luiz.svg";
 import juliana from "../../images/Ju.svg";
 import rachel from "../../images/Rachel.svg";
 // volunteers
+import chiara from "../../images/Chiara.svg";
 import jovan from "../../images/Jovan.svg";
 import kera from "../../images/Kera.svg";
 import manuela from "../../images/Manuela.svg";
@@ -176,18 +177,22 @@ function Homepage() {
 
             <div className="photo-volunteers">
               <a
-                href="https://github.com/Royalone94"
+                href="https://kikilondon.github.io/projects/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={jovan} alt="Keras photo" className="photo-size"></img>
+                <img
+                  src={chiara}
+                  alt="Chiaras photo"
+                  className="photo-size"
+                ></img>
               </a>
               <a
-                href="https://github.com/Royalone94"
+                href="https://kikilondon.github.io/projects/"
                 target="_blank"
                 rel="noreferrer"
               >
-                Jovan Aleksic
+                Chiara Pigoni
               </a>
             </div>
 
@@ -197,7 +202,11 @@ function Homepage() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={jovan} alt="Keras photo" className="photo-size"></img>
+                <img
+                  src={jovan}
+                  alt="Jovans photo"
+                  className="photo-size"
+                ></img>
               </a>
               <a
                 href="https://github.com/Royalone94"
