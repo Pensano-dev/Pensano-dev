@@ -172,6 +172,25 @@ function Homepage() {
           </div>
 
           <div className="all-photos-container">
+            {/* Add new volunteers below in alphabetical order*/}
+
+            <div className="photo-volunteers">
+              <a
+                href="https://github.com/Royalone94"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={jovan} alt="Keras photo" className="photo-size"></img>
+              </a>
+              <a
+                href="https://github.com/Royalone94"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Jovan Aleksic
+              </a>
+            </div>
+
             <div className="photo-volunteers">
               <a
                 href="https://github.com/Royalone94"
