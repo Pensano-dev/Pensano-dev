@@ -42,31 +42,31 @@ function Homepage() {
           <div className="text-container">
             <p className="header">
               {" "}
-              Pensano Developers is a team of volunteer developers and UX/UI
-              designers on a mission to create a positive impact through
-              purposeful development.
+              Pensano Developers: a volunteer team of developers, devOps, 
+              project managers, designers, and accessibility specialists on 
+              a mission to create positive impact through purposeful development.
             </p>
             <p className="pink-line"></p>
             <p className="text">
               {" "}
-              Pensano is Italian for they think; and the volunteers at Pensano
-              do just that: they are problem solvers, they think outside the
-              box, and they are deliberate.
+              Pensano means "they think" in Italian, and that’s exactly what we do. 
+              We are problem solvers  who think outside the box and approach 
+              challenges with intention and creativity.
+
             </p>
             <p className="text">
               {" "}
-              Each is skilled at working in agile environments, test-driven
-              development, object-oriented and pair programming, and at quickly
-              adapting to new tech stacks. We believe that technology has the
-              power to change lives and make a difference, therefore, we
-              actively seek out opportunities to collaborate with organizations
-              that align with our values and share our vision for creating a
-              better world.
+              Our team is skilled in working with agile methodologies and 
+              quickly adapting to new technologies. We believe in the transformative 
+              power of technology and actively seek opportunities to collaborate 
+              with like-minded organizations to create a better world.
             </p>
             <p className="text">
               {" "}
-              This site is designed to showcase our work, so please take a look
-              around.
+              This site is a showcase of our work and our passion for using 
+              technology to make a difference. Take a look around and 
+              discover what we do!
+
             </p>
             <br></br>
           </div>
@@ -436,7 +436,7 @@ function Homepage() {
           <div>{showOurProjects && <OurProjects />}</div>
 
           <div className="footer-container">
-            <p className="footer-text-copyright">© Pensano Developers 2023</p>
+            <p className="footer-text-copyright">© Pensano Developers 2025</p>
           </div>
         </div>
       </div>
