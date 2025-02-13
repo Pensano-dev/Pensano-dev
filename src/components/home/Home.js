@@ -436,7 +436,7 @@ function Homepage() {
           <div>{showOurProjects && <OurProjects />}</div>
 
           <div className="footer-container">
-            <p className="footer-text-copyright">© Pensano Developers 2023</p>
+            <p className="footer-text-copyright">© Pensano Developers 2025</p>
           </div>
         </div>
       </div>
