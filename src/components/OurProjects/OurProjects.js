@@ -2,8 +2,7 @@ import "./OurProjects.css";
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import { IconContext } from "react-icons";
-
-import Git from "../personalInfo/Git";
+import { FaGithub } from "react-icons/fa";
 
 export default function OurProjects() {
   return (
@@ -31,7 +30,9 @@ export default function OurProjects() {
               </p>
             </p>
             <div className="github-child">
-              <Git git="https://github.com/Pensano-dev/aura-mobile-app" />
+              <a href={"https://github.com/Pensano-dev/aura-mobile-app"} target="_blank" rel="noopener noreferrer">
+                <FaGithub className="react-icons" />
+              </a>
             </div>
           </div>
         </div>
@@ -57,7 +58,10 @@ export default function OurProjects() {
               </p>
             </p>
             <div className="github-child">
-              <Git git="https://github.com/Pensano-dev/meal-plan-generator" />
+              <a href={"https://github.com/Pensano-dev/meal-plan-generator"} target="_blank" rel="noopener noreferrer">
+                <FaGithub className="react-icons" />
+              </a>
+              {/* <Git git="https://github.com/Pensano-dev/meal-plan-generator" /> */}
             </div>
           </div>
         </div>
@@ -108,7 +112,10 @@ export default function OurProjects() {
               </p>
             </p>
             <div className="github-child">
-              <Git git="https://github.com/Pensano-dev/Pensano-dev" />
+            <a href={"https://github.com/Pensano-dev/Pensano-dev"} target="_blank" rel="noopener noreferrer">
+                <FaGithub className="react-icons" />
+              </a>
+              {/* <Git git="https://github.com/Pensano-dev/Pensano-dev" /> */}
             </div>
           </div>
         </div>

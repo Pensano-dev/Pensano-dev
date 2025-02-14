@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Chiara Pigoni",
+    "pronouns": "she/her",
+    "githubAvatar": "https://avatars.githubusercontent.com/kikilondon?v=4",
+    "linkedIn": "https://www.linkedin.com/in/chiarapigoni/",
+    "github": "https://github.com/kikilondon",
+    "jobTitle": "Software Engineer",
+    "skills": ["Node.js", "React", "React Native"],
+    "year": [2025, 2024]
+  },
+  {
+    "name": "Michal Smyk",
+    "pronouns": "he/his",
+    "githubAvatar": "https://avatars.githubusercontent.com/MichalSmyk?v=4",
+    "linkedIn": "https://www.linkedin.com/in/michalsmyk38/",
+    "github": "https://github.com/MichalSmyk",
+    "jobTitle": "Software Engineer Consultant",
+    "skills": ["Express.js", "JS", "MongoDB" , "Node.js", "SQL databases"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Juliana Nocchi",
+    "pronouns": "she/her",
+    "githubAvatar": "https://avatars.githubusercontent.com/junocchi?v=4",
+    "linkedIn": "https://www.linkedin.com/in/juliana-nocchi/",
+    "github": "https://github.com/junocchi",
+    "jobTitle": "Software Engineer",
+    "skills": ["GraphQL", "Node.js", "Postgres", "Python", "React", "TS"],
+    "year": [2025, 2024, 2023]
+  },
+  { 
+    "name": "Thiago Boccalon",
+    "pronouns": "he/his",
+    "githubAvatar": "https://avatars.githubusercontent.com/ThiagoBoccalon?v=4",
+    "linkedIn": "https://www.linkedin.com/in/thiagoboccalon/",
+    "github": "https://github.com/ThiagoBoccalon",
+    "jobTitle": "Software Engineer",
+    "skills": ["C#", ".NET"],
+    "year": 2025
+  },
+  {
+    "name": "Josh Penney",
+    "pronouns": "he/his",
+    "githubAvatar": "https://avatars.githubusercontent.com/josh-p-git?v=4",
+    "linkedIn": "",
+    "github": "https://github.com/josh-p-git",
+    "jobTitle": "Software Engineer",
+    "skills": ["Node.js", "React", "Ruby"],
+    "year": 2023
+  },
+  {
+    "name": "Luiz Santos",
+    "pronouns": "he/his",
+    "githubAvatar": "https://avatars.githubusercontent.com/santosluizfelipe?v=4",
+    "linkedIn": "https://www.linkedin.com/in/luizfelipessantos/",
+    "github": "https://github.com/santosluizfelipe",
+    "jobTitle": "Software Engineer",
+    "skills": ["AWS", "Elixir", "GraphQL", "Node.js", "Postgres", "React Native"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Rachel Newby",
+    "pronouns": "she/her, he/his, they/them",
+    "githubAvatar": "https://avatars.githubusercontent.com/rachelnewby?v=4",
+    "linkedIn": "https://www.linkedin.com/in/rachel-newby-uk/",
+    "github": "https://github.com/rachelnewby",
+    "jobTitle": "Software Engineer",
+    "skills": ["Java", "Node.js", "Python"],
+    "year": [2023]
+  },
+  {
+    "name": "Kera Sultan",
+    "pronouns": "she/her",
+    "githubAvatar": "https://avatars.githubusercontent.com/Keremesh?v=4",
+    "linkedIn": "",
+    "github": "https://github.com/Keremesh",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "React", "Ruby", "Python"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Manuela Iacobovici",
+    "pronouns": "she/her",
+    "githubAvatar": "https://avatars.githubusercontent.com/ManuelaIacobovici?v=4",
+    "linkedIn": "https://www.linkedin.com/in/manuela-iacobovici-026467280/",
+    "github": "https://github.com/ManuelaIacobovici",
+    "jobTitle": "Software Tester",
+    "skills": ["Java", "JS", "Node.js", "React"],
+    "year": [2024, 2023]
+  }
+]

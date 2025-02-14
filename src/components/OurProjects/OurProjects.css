@@ -52,15 +52,15 @@
   margin-top: -3%;
   margin-left: 0px;
 }
-/* .github-child {
+.github-child {
   position: relative;
   justify-content: start;
-} */
+}
 
-.github-child {
+/* .github-child {
   margin-top: -40px;
   margin-left: 107%;
-}
+} */
 .github-emoticon Git {
   max-width: 100%;
   height: 100%;
