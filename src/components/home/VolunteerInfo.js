@@ -12,7 +12,7 @@ const VolunteerInfo = ({ name, pronouns, githubPicture: githubAvatar, linkedIn, 
       />
       <div className="volunteer-details">
         <div className="name">
-          {name} ({pronouns}){" "}
+          {name} {pronouns}{" "}
           <a href={linkedIn} target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="react-icons" />
           </a>

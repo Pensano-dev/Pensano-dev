@@ -7,12 +7,12 @@ import { FaGithub } from "react-icons/fa";
 export default function OurProjects() {
   return (
     <IconContext.Provider value={{ color: "#052d49", size: "30px" }}>
-      <div style={{ backgroundColor: "#BBEBEA" }}>
+      <div className="our-projects-container">
         <Navbar />
         <h2 className="title">Welcome to our projects page!</h2>
 
         {/* Project AURA */}
-        <div className="our-projects-container">
+        <div className="our-projects-individual-containers">
           <div className="project-textAll">
             <h3>🌈 Aura (🚧 under construction)</h3>
             <p>
@@ -26,19 +26,17 @@ export default function OurProjects() {
               ambience.
               <br></br>
               <p style={{ fontSize: 14 }}>
-                ⚙️ Tech used: Figma, React Native and GitHub.
+                ⚙️ Tech: Figma, React Native and GitHub.
               </p>
             </p>
-            <div className="github-child">
               <a href={"https://github.com/Pensano-dev/aura-mobile-app"} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="react-icons" />
+                <FaGithub className="github-icon" />
               </a>
-            </div>
           </div>
         </div>
 
         {/* Project Meal plan generator */}
-        <div className="our-projects-container">
+        <div className="our-projects-individual-containers">
           <div className="project-textAll">
             <h3>🥙 7-day Meal Plan AI generated (🚧 under construction)</h3>
             <p>
@@ -53,21 +51,18 @@ export default function OurProjects() {
               providing personalised recommendations for their patients.
               <br></br>
               <p style={{ fontSize: 14 }}>
-                ⚙️ Tech used: MongoDB, Javascript, Jest, Cypress, HTML, CSS,
+                ⚙️ Tech: MongoDB, Javascript, Jest, Cypress, HTML, CSS,
                 Git, and GitHub.
               </p>
             </p>
-            <div className="github-child">
               <a href={"https://github.com/Pensano-dev/meal-plan-generator"} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="react-icons" />
+                <FaGithub className="github-icon" />
               </a>
-              {/* <Git git="https://github.com/Pensano-dev/meal-plan-generator" /> */}
-            </div>
           </div>
         </div>
 
         {/* Project HTMA report */}
-        <div className="our-projects-container">
+        <div className="our-projects-individual-containers">
           <div className="project-textAll">
             <h3>🧪 HTMA Report Generator (🚧 under construction)</h3>
             <p>
@@ -82,18 +77,15 @@ export default function OurProjects() {
               on providing personalised recommendations for their patients.
               <br></br>
               <p style={{ fontSize: 14 }}>
-                ⚙️ Tech used: React, Javascript, HTML, CSS, Chat GPT, Figma,
+                ⚙️ Tech: React, Javascript, HTML, CSS, Chat GPT, Figma,
                 Git, and GitHub.
               </p>
             </p>
-            {/* <div className="github-child">
-              <Git git="https://github.com/junocchi/Pensano-dev" />
-            </div> */}
           </div>
         </div>
 
         {/* Project Pensano */}
-        <div className="our-projects-container">
+        <div className="our-projects-individual-containers">
           <div className="project-textAll">
             <h3>💡 Pensano Devs Website</h3>
             <p>
@@ -107,36 +99,22 @@ export default function OurProjects() {
               front-end project, built with React and CSS.
               <br></br>
               <p style={{ fontSize: 14 }}>
-                ⚙️ Tech used: Git, GitHub, JavaScript, React, Cypress, CSS and
+                ⚙️ Tech: Git, GitHub, JavaScript, React, Cypress, CSS and
                 HTML.
               </p>
             </p>
-            <div className="github-child">
             <a href={"https://github.com/Pensano-dev/Pensano-dev"} target="_blank" rel="noopener noreferrer">
-                <FaGithub className="react-icons" />
-              </a>
-              {/* <Git git="https://github.com/Pensano-dev/Pensano-dev" /> */}
-            </div>
+            <FaGithub className="github-icon" />
+            </a>
           </div>
         </div>
       </div>
 
-      {/* Link to our projects */}
-      <div className="link-our-projects">
-        {/* <button
-              className="link-text"
-              onClick={() => handleClick("/our-projects")}
-            >
-              Check out our projects here.
-            </button>
-          </div>
-
-          <div>{showOurProjects && <OurProjects />}</div> */}
-
+      {/* Footer */}
         <div className="footer-container">
           <p className="footer-text-copyright">© Pensano Developers 2025</p>
         </div>
-      </div>
+
     </IconContext.Provider>
   );
 }

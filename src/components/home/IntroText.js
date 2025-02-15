@@ -6,7 +6,7 @@ export default function IntroText() {
             <p className="header">
               {" "}
               Pensano Developers: a volunteer team of developers, devOps, 
-              project managers, designers, and accessibility specialists on 
+              product managers, DEIA specialists, and designers on 
               a mission to create positive impact through purposeful development.
             </p>
             <p className="cyan-line"></p>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import VolunteerInfo from "./VolunteerInfo";
 import volunteers from "../../data/volunteers.json";
+import "./Home.css";
 
 const VolunteerListByYear = () => {
   const [selectedYear, setSelectedYear] = useState(2025);
@@ -12,17 +13,17 @@ const VolunteerListByYear = () => {
       ? volunteer.year.includes(selectedYear)
       : volunteer.year === selectedYear
   )
-  .sort((a, b) => a.name.localeCompare(b.name)); // Sorting alphabetically by name
+  .sort((a, b) => a.name.localeCompare(b.name)); 
 
 
   return (
-    <div className="volunteer-list">
+    <div>
       {/* Year selection buttons */}
-      <div className="year-buttons flex space-x-4 justify-center mb-6">
+      <div className="year-buttons-container">
         {[2025, 2024, 2023].map(year => (
           <button
             key={year}
-            className={`p-2 rounded-lg ${selectedYear === year ? "bg-green-400" : "bg-gray-200"}`}
+            className={"year-buttons"}
             onClick={() => setSelectedYear(year)}
           >
             {year}
@@ -30,8 +31,9 @@ const VolunteerListByYear = () => {
         ))}
       </div>
 
-      {/* Render the list of filtered and sorted volunteers */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {/* Render the list of filtered and sorted volunteers 
+      style for this is in VolunteerInfo.js */}
+      <div className="volunteers-list">
         {filteredVolunteers.map(volunteer => (
           <VolunteerInfo
             key={volunteer.name}
