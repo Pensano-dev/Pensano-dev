@@ -14,10 +14,8 @@ export default function Navbar({ handleOurProjects, toggleComponents }) {
   //   return (
   //     <div className="dropdown-container">
   //       <div className="dropdown">
-  //         <a href="/#/josh" className="menu-item" onClick={() => setOpen(!open)}>Josh</a>
   //         <a href="/#/luiz" className="menu-item" onClick={() => setOpen(!open)}>Luiz</a>
   //         <a href="/#/juliana" className="menu-item" onClick={() => setOpen(!open)}>Juliana</a>
-  //         <a href="/#/rachel" className="menu-item" onClick={() => setOpen(!open)}>Rachel</a>
   //       </div>
   //     </div>
   //   );

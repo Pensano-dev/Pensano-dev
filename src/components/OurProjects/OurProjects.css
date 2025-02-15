@@ -5,16 +5,21 @@
   color: #052d49;
 }
 
+/* to wrap all pink containers */
 .our-projects-container {
+  background-color: #BBEBEA;
+  padding-bottom: 5px;
+}
+
+.our-projects-individual-containers {
   margin-top: 30px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: row;
-  /* justify-content: start; */
   border-radius: 20px;
   background-color: #DEBCEF;
-  /* margin-bottom: 50px; */
 }
 
 .project-textAll {
@@ -26,7 +31,6 @@
   text-align: justify;
   justify-content: end;
   color: #052d49;
-  /* margin-right: 20px; */
   margin-inline: 5%;
   margin-bottom: 10px;
 }
@@ -45,23 +49,6 @@
   border-radius: 17px;
 }
 
-.github-emoticon-container {
-  width: 1px;
-  height: 1px;
-  justify-content: flex-end;
-  margin-top: -3%;
-  margin-left: 0px;
-}
-/* .github-child {
-  position: relative;
-  justify-content: start;
-} */
-
-.github-child {
-  margin-top: -40px;
-  margin-left: 107%;
-}
-.github-emoticon Git {
-  max-width: 100%;
-  height: 100%;
+.github-icon {
+  margin-left: 97%;
 }

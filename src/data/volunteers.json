@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Josh Penney",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/josh-p-git?v=4",
+    "linkedIn": "",
+    "github": "https://github.com/josh-p-git",
+    "jobTitle": "Software Engineer",
+    "skills": ["NodeJS", "React", "and Ruby"],
+    "year": 2023
+  },
+  {
+    "name": "Luiz Santos",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/santosluizfelipe?v=4",
+    "linkedIn": "https://www.linkedin.com/in/luizfelipessantos/",
+    "github": "https://github.com/santosluizfelipe",
+    "jobTitle": "Software Engineer Consultant",
+    "skills": ["AWS", "Elixir", "GraphQL", "NodeJS", "Postgres", "and React Native"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Rachel Newby",
+    "pronouns": "(she/her), (he/his), they/them",
+    "githubAvatar": "https://avatars.githubusercontent.com/rachelnewby?v=4",
+    "linkedIn": "https://www.linkedin.com/in/rachel-newby-uk/",
+    "github": "https://github.com/rachelnewby",
+    "jobTitle": "Software Engineer",
+    "skills": ["Java", "NodeJS", "and Python"],
+    "year": [2023]
+  },
+  {
+    "name": "Juliana Nocchi",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/junocchi?v=4",
+    "linkedIn": "https://www.linkedin.com/in/juliana-nocchi/",
+    "github": "https://github.com/junocchi",
+    "jobTitle": "Software Engineer",
+    "skills": ["GraphQL", "NodeJS", "Postgres", "Python", "React", "and TS"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Kera Sultan",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/Keremesh?v=4",
+    "linkedIn": "",
+    "github": "https://github.com/Keremesh",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "React", "Ruby", "and Python"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Manuela Iacobovici",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/ManuelaIacobovici?v=4",
+    "linkedIn": "https://www.linkedin.com/in/manuela-iacobovici-026467280/",
+    "github": "https://github.com/ManuelaIacobovici",
+    "jobTitle": "Software Engineer & Tester",
+    "skills": ["Java", "JS", "NodeJS", "and React"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Natasha Buckham",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/natashabuckham?v=4",
+    "linkedIn": "https://www.linkedin.com/in/natashabuckham/",
+    "github": "https://github.com/natashabuckham",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "NodeJS", "React", "and Ruby"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Pablo Joyce",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/pablisch?v=4",
+    "linkedIn": "https://www.linkedin.com/in/pablo-joyce/",
+    "github": "https://github.com/pablisch",
+    "jobTitle": "Software Engineer & Tester",
+    "skills": ["JS", "NodeJS", "and React"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Tian Pan",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/Tian807?v=4",
+    "linkedIn": "https://www.linkedin.com/in/tianpan03/",
+    "github": "https://github.com/Tian807",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "NodeJS", "Python", "and React"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Sidra Iqbal",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/siqbal181?v=4",
+    "linkedIn": "https://www.linkedin.com/in/sidra-iqbal18/",
+    "github": "https://github.com/siqbal181",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "NodeJS", "React", "and TS"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Elsa Nafar",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/elnafar?v=4",
+    "linkedIn": "https://www.linkedin.com/in/elnafarlinkein/",
+    "github": "https://github.com/elnafar",
+    "jobTitle": "UI/UX Designer",
+    "skills": ["Figma", "JS", "and Swift"],
+    "year": [2024, 2023]
+  },
+  {
+    "name": "Marie Taylor",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/ChalkandFeather?v=4",
+    "linkedIn": "https://www.linkedin.com/in/marie-taylor-2bb138236/",
+    "github": "https://github.com/ChalkandFeather",
+    "jobTitle": "Software Engineer & Accessibility Specialist",
+    "skills": ["JS", "NodeJS", "React", "and WCAG"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Chiara Pigoni",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/kikilondon?v=4",
+    "linkedIn": "https://www.linkedin.com/in/chiarapigoni/",
+    "github": "https://github.com/kikilondon",
+    "jobTitle": "Software Engineer",
+    "skills": ["NodeJS", "React", "and React Native"],
+    "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Amina Ba",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/xAmiBa?v=4",
+    "linkedIn": "https://www.linkedin.com/in/baamina/",
+    "github": "https://github.com/xAmiBa",
+    "jobTitle": "Software Engineer",
+    "skills": ["NodeJS", "Python", "React", "and Ruby"],
+    "year": [2024]
+  },
+  {
+    "name": "Claire Peng",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/clairep94?v=4",
+    "linkedIn": "https://www.linkedin.com/in/pengclaire/",
+    "github": "https://github.com/clairep94",
+    "jobTitle": "Software Engineer",
+    "skills": ["NodeJS", "Python", "React", "and Vue.js"],
+    "year": [2024]
+  },
+  {
+    "name": "Nellie Allsop",
+    "pronouns": "",
+    "githubAvatar": "https://avatars.githubusercontent.com/nellie-allsop?v=4",
+    "linkedIn": "https://www.linkedin.com/in/nellie-allsop/",
+    "github": "https://github.com/nellie-allsop",
+    "jobTitle": "Inclusion Technical Consultant & Software Engineer",
+    "skills": ["JS", "NextJS", "Python", "React", "and TS"],
+    "year": [2025, 2024]
+  },
+  {
+    "name": "Joseph Lander",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/josephclander?v=4",
+    "linkedIn": "https://www.linkedin.com/in/josephclander/?trk=opento_nprofile_details",
+    "github": "https://github.com/josephclander",
+    "jobTitle": "Software Engineer & Content Creator",
+    "skills": ["CSS", "NodeJS", "and React"],
+    "year": [2024]
+  },
+  {
+    "name": "Rossana Ventrella",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/rossana87?v=4",
+    "linkedIn": "https://www.linkedin.com/in/pengclaire/",
+    "github": "https://github.com/rossana87",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "Python", "and React"],
+    "year": [2024]
+  },
+  {
+    "name": "Marco Belahouane",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/mkb93?v=4",
+    "linkedIn": "https://www.linkedin.com/in/marco-belahouane-628381b9/",
+    "github": "https://github.com/mkb93",
+    "jobTitle": "Software Engineer",
+    "skills": ["JS", "NodeJS", "Python", "and React"],
+    "year": [2025, 2024]
+  },
+  {
+    "name": "Tess Connell",
+    "pronouns": "(she/her)",
+    "githubAvatar": "https://avatars.githubusercontent.com/tessconnell14?v=4",
+    "linkedIn": "https://www.linkedin.com/in/tess-connell/",
+    "github": "https://github.com/tessconnell14",
+    "jobTitle": "Technical Product Manager",
+    "skills": ["JS", "and Python"],
+    "year": [2025, 2024]
+  },
+  { 
+    "name": "Thiago Boccalon",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/ThiagoBoccalon?v=4",
+    "linkedIn": "https://www.linkedin.com/in/thiagoboccalon/",
+    "github": "https://github.com/ThiagoBoccalon",
+    "jobTitle": "Software Engineer",
+    "skills": ["C#", "JS", "and .NET"],
+    "year": 2025
+  },
+  {
+    "name": "Michal Smyk",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/MichalSmyk?v=4",
+    "linkedIn": "https://www.linkedin.com/in/michalsmyk38/",
+    "github": "https://github.com/MichalSmyk",
+    "jobTitle": "Software Engineer Consultant",
+    "skills": ["Express.js", "JS", "MongoDB" , "NodeJS", "and SQL databases"],
+    "year": [2025, 2024, 2023]
+  }
+]
