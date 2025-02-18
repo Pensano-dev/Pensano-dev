@@ -21,51 +21,94 @@ function Homepage() {
   }
 
   
- async function getSessionStorage() {
-  //check if sessionStorage exists, if not create new one
-    if (sessionStorage.getItem('session') === null) {
-      const newSessionId = JSON.stringify(new Date().getTime());
-      sessionStorage.setItem('session', newSessionId);
-      //add new session to supabase
-      const { errorSession } = await supabase
+  async function getSessionStorage() {
+    const existingSession = sessionStorage.getItem('session');
+  
+    // If session exists
+    if (existingSession) {
+      console.log("Existing session detected:", existingSession);
+  
+      // Verify if session exists in Supabase
+      const { data: sessionData, error: sessionError } = await supabase
         .from('sessionStorage')
-        .insert([{ session_id: newSessionId}]);
-
-      if (errorSession) {
-        console.error('Error inserting new session:', errorSession.message);
+        .select('*')
+        .eq('session_id', existingSession);
+  
+      if (sessionError) {
+        console.error('Error getting session:', sessionError.message);
+      } else if (sessionData.length === 0) {
+        console.error('No session found with session_id:', existingSession);
+      } else {
+        console.log("Session already stored in Supabase.");
       }
-
+  
+      // Fetch and set the counter value without incrementing
       const { data, errorCounter } = await supabase
+        .from('pensanoCounter')
+        .select('count')
+        .eq('id', 1);
+  
+      if (errorCounter) {
+        console.error('Error fetching counter:', errorCounter.message);
+      } else if (data.length === 0) {
+        console.error('No counter found with id 1');
+      } else {
+        setCounter(data[0].count);
+      }
+      return; // Stop execution here to prevent new session creation
+    }
+  
+    // If sessionStorage is empty, create a new session
+    const newSessionId = JSON.stringify(new Date().getTime());
+    sessionStorage.setItem('session', newSessionId);
+  
+    // Add new session to Supabase
+    const { errorSession } = await supabase
+      .from('sessionStorage')
+      .insert([{ session_id: newSessionId }]);
+  
+    if (errorSession) {
+      console.error('Error inserting new session:', errorSession.message);
+    } else {
+      console.log('New session inserted:', newSessionId);
+    }
+  
+    // Fetch the counter and increment it only for new sessions
+    const { data, errorCounter } = await supabase
       .from('pensanoCounter')
       .select('count')
       .eq('id', 1);
-
+  
     if (errorCounter) {
       console.error('Error fetching counter:', errorCounter.message);
+    } else if (data.length === 0) {
+      console.error('No counter found with id 1');
     } else {
-      console.log("data from supabase when session does not exist", data[0].count);
-      setCounter(data[0].count);
+      let currentCount = data[0].count;
+      console.log("Current counter value:", currentCount);
+  
+      // Increment the counter value
+      currentCount += 1;
+  
+      // Update the counter value in the table
+      const { errorUpdate } = await supabase
+        .from('pensanoCounter')
+        .update({ count: currentCount })
+        .eq('id', 1);
+  
+      if (errorUpdate) {
+        console.error('Error updating counter:', errorUpdate.message);
+      } else {
+        console.log("Updated counter value:", currentCount);
+        setCounter(currentCount);
+      }
     }
-
-    } else {
-      // check if session exists in supabase 
-      const { data, error } = await supabase
-        .from('sessionStorage')
-        .select('*')
-        .eq('session_id', sessionStorage.getItem('session'));
-
-        if( error ) {
-          console.error('Error getting session:', error.message);
-        }
-
-        console.log("data from supabse when session exists", data);
-    }
-
   }
-
+  
   useEffect(() => {
     getSessionStorage();
-  },[])
+  }, []);
+  
 
   return (
     <Layout>
@@ -99,8 +142,8 @@ function Homepage() {
           <div>{showOurProjects && <OurProjects />}</div>
 
           <div className="footer-container">
+            <p className="counter">Visits: {counter}</p>
             <p className="footer-text-copyright">© Pensano Developers 2025</p>
-            <p>Counter: {counter}</p>
           </div>
         </div>
       </div>
