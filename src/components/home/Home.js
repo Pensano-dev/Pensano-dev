@@ -14,6 +14,7 @@ function Homepage() {
 
   const [showOurProjects] = useState(false);
   const [showComponents] = useState(true);
+  const [counter, setCounter] = useState(null);;
 
   function handleClick(path) {
     navigate(path);
@@ -26,13 +27,26 @@ function Homepage() {
       const newSessionId = JSON.stringify(new Date().getTime());
       sessionStorage.setItem('session', newSessionId);
       //add new session to supabase
-      const { error } = await supabase
+      const { errorSession } = await supabase
         .from('sessionStorage')
         .insert([{ session_id: newSessionId}]);
 
-      if (error) {
-        console.error('Error inserting new session:', error.message);
+      if (errorSession) {
+        console.error('Error inserting new session:', errorSession.message);
       }
+
+      const { data, errorCounter } = await supabase
+      .from('pensanoCounter')
+      .select('count')
+      .eq('id', 1);
+
+    if (errorCounter) {
+      console.error('Error fetching counter:', errorCounter.message);
+    } else {
+      console.log("data from supabase when session does not exist", data[0].count);
+      setCounter(data[0].count);
+    }
+
     } else {
       // check if session exists in supabase 
       const { data, error } = await supabase
@@ -86,6 +100,7 @@ function Homepage() {
 
           <div className="footer-container">
             <p className="footer-text-copyright">© Pensano Developers 2025</p>
+            <p>Counter: {counter}</p>
           </div>
         </div>
       </div>
