@@ -7,6 +7,7 @@ import IntroText from "./IntroText";
 
 import OurProjects from "../OurProjects/OurProjects";
 import VolunteerListByYear from "./VolunteerListByYear";
+import supabase from "../../supabaseClient";
 
 function Homepage() {
   const navigate = useNavigate();
@@ -18,14 +19,34 @@ function Homepage() {
     navigate(path);
   }
 
+  
+ async function getSessionStorage() {
   //check if sessionStorage exists, if not create new one
-  function getSessionStorage() {
     if (sessionStorage.getItem('session') === null) {
-      console.log('sessionStorage is null');
-      console.log('creating new sessionStorage');
-      sessionStorage.setItem('session', JSON.stringify(new Date().getTime()));
-      console.log("new sessionStorage created", sessionStorage.getItem('session'));
+      const newSessionId = JSON.stringify(new Date().getTime());
+      sessionStorage.setItem('session', newSessionId);
+      //add new session to supabase
+      const { error } = await supabase
+        .from('sessionStorage')
+        .insert([{ session_id: newSessionId}]);
+
+      if (error) {
+        console.error('Error inserting new session:', error.message);
+      }
+    } else {
+      // check if session exists in supabase 
+      const { data, error } = await supabase
+        .from('sessionStorage')
+        .select('*')
+        .eq('session_id', sessionStorage.getItem('session'));
+
+        if( error ) {
+          console.error('Error getting session:', error.message);
+        }
+
+        console.log("data from supabse when session exists", data);
     }
+
   }
 
   useEffect(() => {
