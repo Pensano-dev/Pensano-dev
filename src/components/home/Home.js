@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Home.css";
 import Layout from "../layout/layout";
@@ -17,6 +17,20 @@ function Homepage() {
   function handleClick(path) {
     navigate(path);
   }
+
+  //check if sessionStorage exists, if not create new one
+  function getSessionStorage() {
+    if (sessionStorage.getItem('session') === null) {
+      console.log('sessionStorage is null');
+      console.log('creating new sessionStorage');
+      sessionStorage.setItem('session', JSON.stringify(new Date().getTime()));
+      console.log("new sessionStorage created", sessionStorage.getItem('session'));
+    }
+  }
+
+  useEffect(() => {
+    getSessionStorage();
+  },[])
 
   return (
     <Layout>
