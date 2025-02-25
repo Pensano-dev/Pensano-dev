@@ -1,15 +1,18 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Home.css";
 
-const VolunteerInfo = ({ name, pronouns, githubPicture: githubAvatar, linkedIn, github, jobTitle, skills }) => {
-
+const VolunteerInfo = ({
+  name,
+  pronouns,
+  githubPicture: githubAvatar,
+  linkedIn,
+  github,
+  jobTitle,
+  skills,
+}) => {
   return (
     <div className="volunteer-info-container">
-      <img
-        src={githubAvatar}
-        alt={`${name}'s profile`}
-        className="avatar"
-      />
+      <img src={githubAvatar} alt={`${name}'s profile`} className="avatar" />
       <div className="volunteer-details">
         <div className="name">
           {name} {pronouns}{" "}
@@ -21,7 +24,7 @@ const VolunteerInfo = ({ name, pronouns, githubPicture: githubAvatar, linkedIn, 
           </a>
         </div>
         <p className="job-title-skills">{jobTitle}</p>
-        <p className="job-title-skills">Skills: {skills.join(', ')}</p>
+        <p className="job-title-skills">Skills: {skills.join(", ")}</p>
       </div>
     </div>
   );

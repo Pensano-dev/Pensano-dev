@@ -1,23 +1,23 @@
-  /* display: flex;  Use flexbox to position items horizontally */
-  /* align-items: center;  Center items vertically */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  #root {
-    max-width: 1500px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+/* display: flex;  Use flexbox to position items horizontally */
+/* align-items: center;  Center items vertically */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .navbar button {
   /*The Team and Our Projects buttons*/
   margin-right: 15px;
-  background-color: #FEB211;
+  background-color: #feb211;
+  color: #39455d;
   font-weight: bold;
-  color: #39455D;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
@@ -28,7 +28,7 @@
 
 .page-container {
   /* width: 100%; */
-  background-color: #BBEBEA;
+  background-color: #bbebea;
 }
 
 .header {
@@ -53,7 +53,7 @@
 }
 
 .cyan-line {
-  background-color: #50CFCD;
+  background-color: #50cfcd;
   width: 80%;
   height: 10px;
   border-radius: 25px;
@@ -61,7 +61,7 @@
 }
 
 .volunteers-container {
-  background-color: #CEA0E4;
+  background-color: #cea0e4;
   padding-top: 1rem;
 }
 
@@ -74,8 +74,8 @@
 
 .year-buttons-container {
   display: flex;
-  justify-content:center;
-  background-color: #CEA0E4;
+  justify-content: center;
+  background-color: #cea0e4;
   padding-bottom: 1rem;
   padding-top: 1rem;
   gap: 10px;
@@ -83,28 +83,35 @@
 
 .year-buttons {
   font-weight: bold;
-  background-color:#39455D;
+  background-color: #39455d;
   color: #ffffff;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   border-radius: 15px;
   border: none;
+  transition: background-color 0.3s, color 0.3s;
 }
-
+.year-buttons.active {
+  background-color: #50cfcd; /* default or selected */
+  color: #39455d;
+  transform: scale(1.1);
+}
 .year-buttons:hover {
-  background-color: #50CFCD;
-  color: #39455D;
-  transform:scale(1.1);
-} 
+  background-color: #feb211;
+  color: #39455d;
+  transform: scale(1.2);
+}
 
 .volunteer-info-container {
   display: flex; /* horizontally */
   flex-direction: row;
   align-items: center; /* vertically */
   padding: 1rem;
-  background-color: rgba(255,255,255,0.25); /* transparent */
+  background-color: rgba(255, 255, 255, 0.25); /* transparent */
   border-radius: 0.5rem;
   text-align: left;
 }
@@ -126,7 +133,10 @@
 /* For larger screens */
 @media (min-width: 1024px) {
   .volunteers-list {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for large screens as well */
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 columns for large screens as well */
   }
 }
 
@@ -168,7 +178,7 @@
 .link-our-projects {
   display: flex;
   flex-direction: column;
-  background-color: #ABB2E7;
+  background-color: #abb2e7;
 }
 .link-text {
   margin-top: 1rem;
@@ -178,14 +188,14 @@
   color: #323b60;
   text-align: center;
   /* background-color: #e5edef; */
-  background-color: #ABB2E7;
+  background-color: #abb2e7;
   border-color: transparent;
 }
 .footer-container {
   display: flex;
   /* flex-direction: column; */
   justify-content: space-between;
-  background-color: #50CFCD;
+  background-color: #50cfcd;
   width: 100%;
   padding: 20px;
   text-align: right;
@@ -199,21 +209,21 @@
   padding-right: 1rem;
   font-size: 12px;
   color: #323b60;
-  background-color: #50CFCD;
+  background-color: #50cfcd;
 }
 
 .counter {
   font-size: 12px;
   color: #323b60;
-  background-color: #50CFCD;
+  background-color: #50cfcd;
 }
-
 
 /* ----------------NOT IN USE?------------------- */
 /* TODO - cleanup */
 
 .photo {
-  /* column-gap: 1rem; */  flex-direction: column;
+  /* column-gap: 1rem; */
+  flex-direction: column;
   cursor: pointer;
   border-color: transparent;
   font-size: 14px;
@@ -237,7 +247,6 @@
   background-color: #BBEBEA;
 } */
 
-
 /* .all-photos-container {
   display: flex;
   flex-wrap: wrap;
@@ -250,9 +259,3 @@
   margin: 2rem 5% 2% 5%;
   background-color: #FEB211;
 } */
-
-
-
-
-
-
