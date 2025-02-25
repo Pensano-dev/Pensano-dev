@@ -30,8 +30,8 @@ const VolunteerListByYear = () => {
         ))}
       </div>
 
-      {/* Render the list of filtered and sorted volunteers 
-      style for this is in VolunteerInfo.js */}
+      {/* Render the list of filtered and sorted volunteers; 
+      Style for this is in VolunteerInfo.js */}
       <div className="volunteers-list">
         {filteredVolunteers.map((volunteer) => (
           <VolunteerInfo

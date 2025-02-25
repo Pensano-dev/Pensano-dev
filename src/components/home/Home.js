@@ -118,9 +118,8 @@ function Homepage() {
           {/*Volunteers*/}
           <div className="volunteers-container">
             <p className="volunteers-list-header">
-              {" "}
               Here you can find a list of volunteers who have contributed to
-              Pensano!{" "}
+              Pensano!
             </p>
           </div>
 

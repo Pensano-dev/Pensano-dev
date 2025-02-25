@@ -16,7 +16,14 @@
     "linkedIn": "https://www.linkedin.com/in/luizfelipessantos/",
     "github": "https://github.com/santosluizfelipe",
     "jobTitle": "Software Engineer / Consultant",
-    "skills": ["AWS", "Elixir", "GraphQL", "NodeJS", "Postgres", "and React Native"],
+    "skills": [
+      "AWS",
+      "Elixir",
+      "GraphQL",
+      "NodeJS",
+      "Postgres",
+      "and React Native"
+    ],
     "year": [2025, 2024, 2023]
   },
   {
@@ -196,10 +203,10 @@
     "linkedIn": "https://www.linkedin.com/in/tess-connell/",
     "github": "https://github.com/tessconnell14",
     "jobTitle": "Technical Product Manager",
-    "skills": ["JS", "and Python"],
+    "skills": ["JS", "Python", "SQL", "and WCAG"],
     "year": [2025, 2024]
   },
-  { 
+  {
     "name": "Thiago Boccalon",
     "pronouns": "(he/his)",
     "githubAvatar": "https://avatars.githubusercontent.com/ThiagoBoccalon?v=4",
@@ -216,7 +223,15 @@
     "linkedIn": "https://www.linkedin.com/in/michalsmyk38/",
     "github": "https://github.com/MichalSmyk",
     "jobTitle": "Software Engineer / Consultant",
-    "skills": ["Express.js", "JS", "MongoDB" , "NodeJS", "SQL databases", "React", " and React Native"],
+    "skills": [
+      "Express.js",
+      "JS",
+      "MongoDB",
+      "NodeJS",
+      "SQL databases",
+      "React",
+      " and React Native"
+    ],
     "year": [2025, 2024, 2023]
   }
 ]
