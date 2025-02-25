@@ -14,101 +14,99 @@ function Homepage() {
 
   const [showOurProjects] = useState(false);
   const [showComponents] = useState(true);
-  const [counter, setCounter] = useState(null);;
+  const [counter, setCounter] = useState(null);
 
   function handleClick(path) {
     navigate(path);
   }
 
-  
   async function getSessionStorage() {
-    const existingSession = sessionStorage.getItem('session');
-  
+    const existingSession = sessionStorage.getItem("session");
+
     // If session exists
     if (existingSession) {
       console.log("Existing session detected:", existingSession);
-  
+
       // Verify if session exists in Supabase
       const { data: sessionData, error: sessionError } = await supabase
-        .from('sessionStorage')
-        .select('*')
-        .eq('session_id', existingSession);
-  
+        .from("sessionStorage")
+        .select("*")
+        .eq("session_id", existingSession);
+
       if (sessionError) {
-        console.error('Error getting session:', sessionError.message);
+        console.error("Error getting session:", sessionError.message);
       } else if (sessionData.length === 0) {
-        console.error('No session found with session_id:', existingSession);
+        console.error("No session found with session_id:", existingSession);
       } else {
         console.log("Session already stored in Supabase.");
       }
-  
+
       // Fetch and set the counter value without incrementing
       const { data, errorCounter } = await supabase
-        .from('pensanoCounter')
-        .select('count')
-        .eq('id', 1);
-  
+        .from("pensanoCounter")
+        .select("count")
+        .eq("id", 1);
+
       if (errorCounter) {
-        console.error('Error fetching counter:', errorCounter.message);
+        console.error("Error fetching counter:", errorCounter.message);
       } else if (data.length === 0) {
-        console.error('No counter found with id 1');
+        console.error("No counter found with id 1");
       } else {
         setCounter(data[0].count);
       }
       return; // Stop execution here to prevent new session creation
     }
-  
+
     // If sessionStorage is empty, create a new session
     const newSessionId = JSON.stringify(new Date().getTime());
-    sessionStorage.setItem('session', newSessionId);
-  
+    sessionStorage.setItem("session", newSessionId);
+
     // Add new session to Supabase
     const { errorSession } = await supabase
-      .from('sessionStorage')
+      .from("sessionStorage")
       .insert([{ session_id: newSessionId }]);
-  
+
     if (errorSession) {
-      console.error('Error inserting new session:', errorSession.message);
+      console.error("Error inserting new session:", errorSession.message);
     } else {
-      console.log('New session inserted:', newSessionId);
+      console.log("New session inserted:", newSessionId);
     }
-  
+
     // Fetch the counter and increment it only for new sessions
     const { data, errorCounter } = await supabase
-      .from('pensanoCounter')
-      .select('count')
-      .eq('id', 1);
-  
+      .from("pensanoCounter")
+      .select("count")
+      .eq("id", 1);
+
     if (errorCounter) {
-      console.error('Error fetching counter:', errorCounter.message);
+      console.error("Error fetching counter:", errorCounter.message);
     } else if (data.length === 0) {
-      console.error('No counter found with id 1');
+      console.error("No counter found with id 1");
     } else {
       let currentCount = data[0].count;
       console.log("Current counter value:", currentCount);
-  
+
       // Increment the counter value
       currentCount += 1;
-  
+
       // Update the counter value in the table
       const { errorUpdate } = await supabase
-        .from('pensanoCounter')
+        .from("pensanoCounter")
         .update({ count: currentCount })
-        .eq('id', 1);
-  
+        .eq("id", 1);
+
       if (errorUpdate) {
-        console.error('Error updating counter:', errorUpdate.message);
+        console.error("Error updating counter:", errorUpdate.message);
       } else {
         console.log("Updated counter value:", currentCount);
         setCounter(currentCount);
       }
     }
   }
-  
+
   useEffect(() => {
     getSessionStorage();
   }, []);
-  
 
   return (
     <Layout>
@@ -120,15 +118,14 @@ function Homepage() {
           {/*Volunteers*/}
           <div className="volunteers-container">
             <p className="volunteers-list-header">
-              {" "}
-              Here you can find a list of volunteers who have contributed to Pensano!            </p>
+              Here you can find a list of volunteers who have contributed to
+              Pensano!
+            </p>
           </div>
 
           {/* List of Volunteers */}
-          <div>
-            {showComponents && <VolunteerListByYear />}
-          </div>
-          
+          <div>{showComponents && <VolunteerListByYear />}</div>
+
           {/* Link to our projects */}
           <div className="link-our-projects">
             <button
