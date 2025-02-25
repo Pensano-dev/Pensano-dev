@@ -19,6 +19,7 @@ export default function OurProjects() {
               <a
                 href="https://www.canva.com/design/DAFnaNSUH6c/3HwneJ2_axm4dUbXObnFIQ/view?utm_content=DAFnaNSUH6c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 (🚧 in progress)
               </a>
@@ -42,7 +43,7 @@ export default function OurProjects() {
             <a
               href={"https://github.com/Pensano-dev/aura-new"}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
             >
               <FaGithub className="github-icon" />
             </a>
@@ -57,6 +58,7 @@ export default function OurProjects() {
               <a
                 href="https://almost-meal-planner.onrender.com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 (🚧 in progress)
               </a>
@@ -64,7 +66,11 @@ export default function OurProjects() {
             <p>
               Meal Plan is a web app designed to assist Nutritional Therapy
               practitioners and students from{" "}
-              <a href="https://www.newschoolofnutrition.com/" target="_blank">
+              <a
+                href="https://www.newschoolofnutrition.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 The New School of Nutritional Medicine.
               </a>{" "}
               By allowing users to input their client's dietary preferences,

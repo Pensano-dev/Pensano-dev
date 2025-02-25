@@ -27,20 +27,22 @@ export default function Portfolio() {
         <div className="project-textJu">
           <h3>Pensano Dev (website)</h3>
           <p>
-          I built this website with my peer-group friends to showcase our work. It focuses on 
-          mobile responsiveness and has a consistent colour scheme and typography 
-          throughout. Thanks to your use of Excalidraw and Canva, we were able to create 
-          detailed diagrams and prototypes that helped guide the site's design and layout. 
-          We also used Trello and Slack to track progress and communicate with one another.
-          This is a front-end project, built with React and CSS.  It has different sections, 
-          including a "The Team" page that provides more information on its members, and a 
-          "Projects" page that showcases our accomplishments. The site's design is optimized 
-          for mobile devices, ensuring that visitors can easily access and navigate the site 
-          on their smartphones or tablets.
-
+            I built this website with my peer-group friends to showcase our
+            work. It focuses on mobile responsiveness and has a consistent
+            colour scheme and typography throughout. Thanks to your use of
+            Excalidraw and Canva, we were able to create detailed diagrams and
+            prototypes that helped guide the site's design and layout. We also
+            used Trello and Slack to track progress and communicate with one
+            another. This is a front-end project, built with React and CSS. It
+            has different sections, including a "The Team" page that provides
+            more information on its members, and a "Projects" page that
+            showcases our accomplishments. The site's design is optimized for
+            mobile devices, ensuring that visitors can easily access and
+            navigate the site on their smartphones or tablets.
             <br></br>
             <p style={{ fontSize: 14 }}>
-              ⚙️ Tech used: Git, GitHub, JavaScript, React, Cypress, CSS and HTML.
+              ⚙️ Tech used: Git, GitHub, JavaScript, React, Cypress, CSS and
+              HTML.
             </p>
           </p>
         </div>
@@ -107,6 +109,7 @@ export default function Portfolio() {
             <a
               href="https://acebook-air-frontend.onrender.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Acebook-Air
             </a>
