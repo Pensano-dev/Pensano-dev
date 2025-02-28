@@ -12,19 +12,6 @@
   margin-right: auto;
 }
 
-.navbar button {
-  margin-right: 15px;
-  background-color: #feb211;
-  color: #39455d;
-  font-weight: bold;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 15px;
-  border: none;
-}
-
 .page-container {
   background-color: #bbebea;
 }
@@ -42,7 +29,7 @@
   flex-direction: column;
 }
 
-.text {
+.intro-text {
   justify-content: space-between;
   margin: 2% 5% 2% 5%;
   font-size: 14px;
@@ -180,6 +167,10 @@
   flex-direction: column;
   background-color: #abb2e7;
 }
+
+.link-our-projects on:hover {
+  cursor: pointer;
+}
 .link-text {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -190,28 +181,34 @@
   background-color: #abb2e7;
   border-color: transparent;
 }
+.link-text on:hover {
+  cursor: pointer;
+}
+
 .footer-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #50cfcd;
   width: 100%;
   padding: 20px;
-  text-align: right;
-  @media (min-width: 375px) {
-    position: inherit;
-  }
+}
+
+.footer-content {
+  display: flex;
+  align-items: center; /* Align text and icon vertically */
+}
+.footer-content a img {
+  vertical-align: middle;
 }
 
 .footer-text-copyright {
-  border: 0;
-  padding-right: 1rem;
   font-size: 12px;
   color: #323b60;
-  background-color: #50cfcd;
+  margin-right: 10px; /* Adds space between the text and the logo */
 }
 
 .counter {
   font-size: 12px;
-  color: #323b60;
-  background-color: #50cfcd;
+  color: #bbebea;
+  margin-left: 10px;
 }

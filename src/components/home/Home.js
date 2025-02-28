@@ -5,6 +5,7 @@ import "./Home.css";
 import Layout from "../layout/layout";
 import IntroText from "./IntroText";
 
+import ContactUs from "../ContactUs/ContactUs";
 import OurProjects from "../OurProjects/OurProjects";
 import VolunteerListByYear from "./VolunteerListByYear";
 import supabase from "../../supabaseClient";
@@ -126,21 +127,29 @@ function Homepage() {
           {/* List of Volunteers */}
           <div>{showComponents && <VolunteerListByYear />}</div>
 
+          {/* DO NOT DELETE: Counter connecting to Supabase 
+          text has the same color as the background */}
+          <div>
+            <p className="counter">Visits: {counter}</p>
+          </div>
+
           {/* Link to our projects */}
           <div className="link-our-projects">
             <button
               className="link-text"
               onClick={() => handleClick("/our-projects")}
             >
-              Check out our projects here.
+              Check out our projects here
             </button>
           </div>
 
           <div>{showOurProjects && <OurProjects />}</div>
 
           <div className="footer-container">
-            <p className="counter">Visits: {counter}</p>
-            <p className="footer-text-copyright">© Pensano Developers 2025</p>
+            <div className="footer-content">
+              <p className="footer-text-copyright">© Pensano Developers 2025</p>
+              <ContactUs />
+            </div>
           </div>
         </div>
       </div>
