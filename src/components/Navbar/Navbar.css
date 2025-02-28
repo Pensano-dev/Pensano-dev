@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ABB2E7;
+  background-color: #abb2e7;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -15,35 +15,47 @@
   padding: 10px;
 }
 
-.navbar button { /*The Team and Our Projects buttons*/
+.buttons-container {
+  display: flex;
+}
+.navbar button {
   margin-right: 15px;
-  background-color: #a7d4e1;
+  background-color: #feb211;
+  color: #39455d;
   font-weight: bold;
-  color: #16557B;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 15px;
   border: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .navbar button:active {
   background-color: #93c7bf;
 }
 
-.navbar .team-container {
-  margin-left: auto;
-  color: #16557B;
+.navbar button:hover {
+  background-color: #cea0e4;
+  color: #39455d;
+  transform: scale(1.1);
 }
 
-.menu-item { /* Text inside dropdown menu*/
+/* Not in use */
+.navbar .team-container {
+  margin-left: auto;
+  color: #16557b;
+}
+
+/* Text inside dropdown menu*/
+.menu-item {
   height: 40px;
   display: flex;
   align-items: center;
   font-size: 14;
   padding: 4px;
-  color: #16557B;
+  color: #16557b;
   text-decoration: none;
   font-weight: bold;
   margin-left: 25px;
@@ -65,6 +77,5 @@
 
 .makers-logo {
   height: 40px;
-  /* border: 2px solid black ; */
   margin-right: 20px;
 }

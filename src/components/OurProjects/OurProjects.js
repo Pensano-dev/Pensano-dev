@@ -1,6 +1,7 @@
 import "./OurProjects.css";
 import React from "react";
 import Navbar from "../Navbar/Navbar";
+import ContactUs from "../ContactUs/ContactUs";
 import { IconContext } from "react-icons";
 import { FaGithub } from "react-icons/fa";
 
@@ -14,7 +15,7 @@ export default function OurProjects() {
         {/* Project AURA */}
         <div className="our-projects-individual-containers">
           <div className="project-textAll">
-            <h3 style={{ marginTop: 10 }}>
+            <h3 className="project-title">
               🌈 Aura{" "}
               <a
                 href="https://www.canva.com/design/DAFnaNSUH6c/3HwneJ2_axm4dUbXObnFIQ/view?utm_content=DAFnaNSUH6c&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#1"
@@ -53,7 +54,7 @@ export default function OurProjects() {
         {/* Project Meal plan generator */}
         <div className="our-projects-individual-containers">
           <div className="project-textAll">
-            <h3 style={{ marginTop: 10 }}>
+            <h3 className="project-title">
               🥙 7-day Meal Plan AI generated{" "}
               <a
                 href="https://almost-meal-planner.onrender.com/"
@@ -99,7 +100,7 @@ export default function OurProjects() {
         {/* Project Pensano */}
         <div className="our-projects-individual-containers">
           <div className="project-textAll">
-            <h3 style={{ marginTop: 10 }}>💡 Pensano Devs Website</h3>
+            <h3 className="project-title">💡 Pensano Devs Website</h3>
             <p>
               The Pensano Devs website was our very first project as a team,
               created to showcase our work. We focused on mobile responsiveness
@@ -128,7 +129,10 @@ export default function OurProjects() {
 
       {/* Footer */}
       <div className="footer-container">
-        <p className="footer-text-copyright">© Pensano Developers 2025</p>
+        <div className="footer-content">
+          <p className="footer-text-copyright">© Pensano Developers 2025</p>{" "}
+          <ContactUs /> {/* LinkedIn icon */}
+        </div>
       </div>
     </IconContext.Provider>
   );
