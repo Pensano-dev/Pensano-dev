@@ -11,6 +11,7 @@
   padding-bottom: 5px;
 }
 
+/* Individual project containers */
 .our-projects-individual-containers {
   margin-top: 30px;
   margin-left: 50px;
@@ -20,10 +21,14 @@
   flex-direction: row;
   border-radius: 20px;
   background-color: #debcef;
+  padding: 15px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
+
 .project-title {
   color: #323b60;
-  margin-top: 10px;
+  padding: 5px 0;
 }
 
 .project-textAll {
@@ -31,12 +36,10 @@
   line-height: 1.5;
   font-family: Arial, Helvetica, sans-serif;
   padding: 5px;
+  padding-bottom: 10px;
   font-size: 16px;
   text-align: justify;
-  justify-content: end;
   color: #323b60;
-  margin-inline: 5%;
-  margin-bottom: 10px;
 }
 
 a {
@@ -51,16 +54,6 @@ a:visited {
   padding: 5px;
 }
 
-.img-container-op {
-  align-items: center;
-  padding: 20px;
-  border-radius: 25px;
-}
-.img-op {
-  height: 210px;
-  border-radius: 17px;
-}
-
 .github-icon {
-  margin-left: 97%;
+  margin-top: 10px;
 }

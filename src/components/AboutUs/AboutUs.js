@@ -63,8 +63,7 @@ export default function AboutUs() {
       </div>
 
       {/* TODO: as this appears in other pages, 
-      create a component and convert it to a link,
-      not button */}
+      we could create a component and convert it to a link, not button */}
       {/* Link to our projects */}
       <div className="link-our-projects">
         <button
@@ -76,6 +75,7 @@ export default function AboutUs() {
       </div>
 
       <div>{showOurProjects && <OurProjects />}</div>
+
       {/* Footer */}
       <div className="footer-container">
         <div className="footer-content">

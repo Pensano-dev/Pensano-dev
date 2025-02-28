@@ -41,13 +41,15 @@ export default function OurProjects() {
                 ⚙️ Tech: Google Maps API, NodeJS, React Native, and Supabase.
               </p>
             </p>
-            <a
-              href={"https://github.com/Pensano-dev/aura-new"}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub className="github-icon" />
-            </a>
+            <div className="github-icon">
+              <a
+                href={"https://github.com/Pensano-dev/aura-new"}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -87,13 +89,15 @@ export default function OurProjects() {
                 API.
               </p>
             </p>
-            <a
-              href={"https://github.com/Pensano-dev/meal-plan-generator"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="github-icon" />
-            </a>
+            <div className="github-icon">
+              <a
+                href={"https://github.com/Pensano-dev/meal-plan-generator"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
 
@@ -116,13 +120,15 @@ export default function OurProjects() {
                 ⚙️ Tech: NodeJS, React, and CSS.
               </p>
             </p>
-            <a
-              href={"https://github.com/Pensano-dev/Pensano-dev"}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaGithub className="github-icon" />
-            </a>
+            <div className="github-icon">
+              <a
+                href={"https://github.com/Pensano-dev/Pensano-dev"}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub />
+              </a>
+            </div>
           </div>
         </div>
       </div>
