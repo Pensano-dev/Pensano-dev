@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.3a9e3d4b.css",
-    "main.js": "/static/js/main.cc087795.js",
+    "main.js": "/static/js/main.c6d4a1e1.js",
     "static/js/289.0564073f.chunk.js": "/static/js/289.0564073f.chunk.js",
     "static/js/787.3c54f43d.chunk.js": "/static/js/787.3c54f43d.chunk.js",
     "static/media/co-founders.JPG": "/static/media/co-founders.b24891c891f79fb542dc.JPG",
     "static/media/logo-pensano.png": "/static/media/logo-pensano.058c4d94be3e604f57a4.png",
     "index.html": "/index.html",
     "main.3a9e3d4b.css.map": "/static/css/main.3a9e3d4b.css.map",
-    "main.cc087795.js.map": "/static/js/main.cc087795.js.map",
+    "main.c6d4a1e1.js.map": "/static/js/main.c6d4a1e1.js.map",
     "289.0564073f.chunk.js.map": "/static/js/289.0564073f.chunk.js.map",
     "787.3c54f43d.chunk.js.map": "/static/js/787.3c54f43d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3a9e3d4b.css",
-    "static/js/main.cc087795.js"
+    "static/js/main.c6d4a1e1.js"
   ]
 }
