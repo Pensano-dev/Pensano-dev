@@ -180,7 +180,7 @@
     "name": "Rossana Ventrella",
     "pronouns": "(she/her)",
     "githubAvatar": "https://avatars.githubusercontent.com/rossana87?v=4",
-    "linkedIn": "https://www.linkedin.com/in/pengclaire/",
+    "linkedIn": "https://www.linkedin.com/in/rossana-ventrella/",
     "github": "https://github.com/rossana87",
     "jobTitle": "Software Engineer",
     "skills": ["JS", "Python", "and React"],
@@ -233,5 +233,23 @@
       " and React Native"
     ],
     "year": [2025, 2024, 2023]
+  },
+  {
+    "name": "Ali Elamrani",
+    "pronouns": "(he/his)",
+    "githubAvatar": "https://avatars.githubusercontent.com/aliamrani?v=4",
+    "linkedIn": "https://www.linkedin.com/in/alielamrani",
+    "github": "https://github.com/aliamrani",
+    "jobTitle": "Software Engineer",
+    "skills": [
+      "GraphQL",
+      "JS",
+      "NodeJS",
+      "Postgres",
+      "Python",
+      "React",
+      "and TS"
+    ],
+    "year": [2025]
   }
 ]
